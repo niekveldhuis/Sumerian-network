@@ -52,7 +52,6 @@ def main():
 
 	with open(ORACC_FILE) as input_file:
 		count_texts = 0
-		prev_line_ki = False
 		all_trans = {}		# P_index : Transaction object
 		curr_trans = None
 		for line in input_file:
@@ -76,14 +75,9 @@ def main():
 							professions[curr_word] = (words[i+1], lems[i+1])
 							# print(curr_word, ':', professions[curr_word])
 						curr_trans.people.add(curr_word)
-					if prev_line_ki and i == 0 and curr_lem == 'PN':
-						print(curr_word, 'is a receiver')
-						curr_trans.roles['receiver'] = curr_word
-						prev_line_ki = False
-					elif curr_word == 'ki':
+					if curr_word == 'ki':
 						print(words[i+1], 'is a source')
 						curr_trans.roles['source'] = words[i+1]
-						prev_line_ki = True
 				print('')
 			prev_line = line
 
