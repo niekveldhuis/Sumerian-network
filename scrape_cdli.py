@@ -2,6 +2,7 @@ import csv
 import codecs
 
 CDLI_FILE = 'cdli_catalogue.csv'
+OUTPUT_FILE = 'drehem_p_ids.txt'
 
 def find_drehem():
 	print('Reading CDLI...')
@@ -19,6 +20,11 @@ def find_drehem():
 				count += 1
 		print(count, 'texts found from Drehem')
 	# print(p_id_set)
+
+	with open(OUTPUT_FILE, 'w') as output_file:
+		for index in p_id_set:
+			print(index, file=output_file)
+
 	return p_id_set
 
 def check_null_bytes(csvfile):
@@ -29,4 +35,4 @@ def check_null_bytes(csvfile):
 			print(x)
 
 # check_null_bytes(open(CDLI_FILE))
-# find_drehem()
+find_drehem()
