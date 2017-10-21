@@ -1,6 +1,5 @@
-from scrape_cdli import find_drehem
-
 ORACC_FILE = 'raw-data/p001.atf'
+DREHEM_P_IDS_FILE = 'drehem_p_ids.txt'
 
 NUM_TEXTS = 25
 
@@ -14,6 +13,13 @@ class Transaction:
 
 	def __str__(self):
 		return 'P' + str(self.p_index) + ': \n\t' + str(self.roles) + '\n\t' + str(self.people)
+
+def get_drehem_p_ids():
+	p_sets = set()
+	with open(DREHEM_P_IDS_FILE) as read_file:
+		for line in read_file:
+			p_sets.add(line[:-1])
+	return p_sets
 
 def get_p_index(line):
 	# line of the form '&P100259 = ...': return '100259'
@@ -44,7 +50,7 @@ def get_lems_and_words(lem_line, word_line):
 	return lems, words
 
 def main():
-	drehem_texts = find_drehem()
+	drehem_texts = get_drehem_p_ids()
 
 	professions = {}
 		# dictionary from name -> lemmatization of profession
