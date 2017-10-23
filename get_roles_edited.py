@@ -1,6 +1,6 @@
 import re
 
-ORACC_FILE = 'raw-data/p001.atf'
+# ORACC_FILE = 'raw-data/p001.atf'
 DREHEM_P_IDS_FILE = 'drehem_p_ids.txt'
 
 NUM_TEXTS = 25
@@ -10,6 +10,8 @@ NUM_TEXTS = 25
 #	object transaction has p_index, source, receiver, 
 
 complete_transaction_ls = list()
+drehem_transaction_ls = list()
+
 complete_drehem_p_sets = set()
 p_sets_of_interest = set()
 transaction_ls = list()
@@ -23,7 +25,7 @@ class Transaction:
 		self.people = set()
 
 		self.line = line;
-		# ls of lines
+		
 
 		self.ls_lines_containing_PN = list()
 		# ls of lines containing PN
@@ -140,6 +142,7 @@ def process_files():
 	global p_sets_of_interest
 	global transaction_ls
 	global complete_transaction_ls
+	global drehem_transaction_ls
 	i = 1; # oracc file number
 
 
@@ -152,16 +155,30 @@ def process_files():
 		else:
 			ORACC_FILE = 'raw-data/p0'+str(i)+'.atf'
 		collect_p_id_of_interest(ORACC_FILE);
-		get_transactions(ORACC_FILE, p_sets_of_interest);
+
+		#get complete list of transactions
+		get_transactions(ORACC_FILE);
 		for trans in transaction_ls:		
 			clean_transaction(trans)
 			get_PN(trans)
 		complete_transaction_ls += transaction_ls
-		# print(len(transaction_ls), len(p_sets_of_interest))
-		print("completed "+ORACC_FILE)
+
+		# get drehem list of transactions
+		# TO CHANGE LATER (BAD IMPLEMENTATION; READING THE FILE TWICE)
+		transaction_ls = list()
+		get_transactions(ORACC_FILE,p_sets_of_interest);
+		for trans in transaction_ls:		
+			clean_transaction(trans)
+			get_PN(trans)
+		drehem_transaction_ls += transaction_ls
+
+
+		print("Got transactions from "+ORACC_FILE)
 		i+=1
 
+	print("***FINISH***")
 	print("***Total of ", len(complete_transaction_ls), " transactions.***")
+	print("***Total of ", len(drehem_transaction_ls), " Drehem transactions.***")
 	return complete_transaction_ls
 
 def main():
@@ -183,7 +200,7 @@ def main():
 			contain_ragaba_count += 1
 
 
-	print(no_PN_count, " transactions DO NOT have PN.")
+	print(no_PN_count, " transactions do NOT have PN.")
 	print(contain_ki_count, " transactions contain a word ki[place].")
 	print(contain_subati_count, " transactions contain a word šu ba-ti.")
 	print(contain_ragaba_count, " transactions contain a word ra₂-gaba.")
