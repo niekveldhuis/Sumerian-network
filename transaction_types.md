@@ -1,6 +1,6 @@
-# Drehem Transaction Types
+# Puzriš-Dagan (Drehem) Transaction Types
 
-Each edge in our network (a connection between two persons) is found in a document. We can characterize each document by document **type** and use these types as edge attributes. The documents arew distinguished from the point of view of the central administration: commodities coming in (deliveries); commodities going out (expenditures); commodities transferred from one office to another (transfers).
+Each edge in our network (a connection between two persons) is found in a document. We can characterize each document by document **type** and use these types as edge attributes. The documents arew distinguished from the point of view of the central administration: commodities coming in (deliveries); commodities going out (expenditures); commodities transferred from one office to another (transfers); balanced accounts, and inventories.
 
 ## Deliveries
 
