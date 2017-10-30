@@ -101,6 +101,8 @@ def main():
 					line_length = min(len(lems), len(words))
 					for i in range(line_length):
 						curr_lem, curr_word = lems[i], words[i]
+						if curr_word == 'mu':	# ignore names in year name
+							break
 						if curr_lem == 'PN':
 							if curr_word[-3:] == '-ta':
 								curr_word = curr_word[:-3]
