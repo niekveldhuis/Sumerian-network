@@ -60,9 +60,9 @@ def get_lems_and_words(lem_line, word_line):
 	# return: (string) list of lemmatizations/words
 	lems = remove_empty_strings(lem_line[6:].split('; '))
 	words = remove_empty_strings(word_line.split(' ')[1:])
-	if (len(lems) != len(words)):
-		print('word', words)
-		print('lem', lems)
+	# if (len(lems) != len(words)):
+	# 	print('word', words)
+	# 	print('lem', lems)
 	return lems, words
 
 def main():
@@ -73,6 +73,9 @@ def main():
 								# (word that comes right after name)
 
 	count_num_names = 0
+	num_trans_dict = {}
+		# dictionary from name -> number of transactions they appear in
+
 	all_professions = set()
 	for oracc_filename in ORACC_FILES:
 		with open(oracc_filename) as input_file:
@@ -83,7 +86,7 @@ def main():
 				line = line.strip()		# remove \n
 				if line.startswith('&P'):	# new text
 					p_index = get_next_text(input_file, line, drehem_texts)
-					if p_index == None:
+					if p_index == None: # reached end of file
 						break
 					# print(p_index)
 					count_texts += 1
@@ -108,10 +111,12 @@ def main():
 									if curr_word in professions:
 										# professions[curr_word].add((words[i+1], lems[i+1]))
 										professions[curr_word].add(lems[i+1])
+										num_trans_dict[curr_word] += 1
 									else:
 										professions[curr_word] = set()
 										# professions[curr_word].add((words[i+1], lems[i+1]))
 										professions[curr_word].add(lems[i+1])
+										num_trans_dict[curr_word] = 1
 								# print(curr_word, ':', professions[curr_word])
 							curr_trans.people.add(curr_word)
 						# if curr_word == 'ki':
@@ -131,6 +136,14 @@ def main():
 
 	print('number of PNs found vs. number of unique names:', count_num_names, len(professions))
 	print('number of unique professions found:', len(all_professions))
+
+	with open('transactions_count.csv', 'w') as output_file:
+		csv_writer = csv.writer(output_file)
+		csv_writer.writerow(['name', 'number of transactions'])
+		for name, num in sorted(num_trans_dict.items(), key=lambda x:x[1], reverse=True):
+			csv_writer.writerow([name, num])
+
+
 	# for t in all_trans.values():
 	# 	print(t)
 
