@@ -1,0 +1,3 @@
+In order to identify Šulgi-simti texts use the list in Walther Sallaberger, *Ur III Zeit* (1999). This list is not up-to-date, but will give you enough for feature extraction.
+The list is in chronological order and by type (first receipts, then expenditures, etc.), so will need to use some kind of randomisation in order to get a representative set (e.g. take every 15th text). The abbreviations used are common in Assyriology, although different projects may use slightly different conventions.
+First challenge is to match the abbreviations (text references) with P numbers. Use http://build-oracc.museum.upenn.edu/epsd2/u3adm/pager and enter the abbreviation in the search box. Do not include the comma (enter, for instance, PDT 2 1039). This 
