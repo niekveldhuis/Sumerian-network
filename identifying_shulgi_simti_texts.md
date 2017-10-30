@@ -1,6 +1,9 @@
 In order to identify Šulgi-simti texts use the list in Walther Sallaberger, *Ur III Zeit* (1999). This list is not up-to-date, but will give you enough for feature extraction.
+
 The list is in order of text reference. These are abbreviations that are common in Assyriology, although different projects may use slightly different conventions. The list is essentially randomized already, so you can simply take the first *n* examples, or the first and last *n* examples. 
+
 First challenge is to match the abbreviations (text references) with P numbers. Use http://build-oracc.museum.upenn.edu/epsd2/u3adm/pager and enter the abbreviation in the search box. Do not include the comma. Enter, for instance, **AAICB I 1 1924-1706**. In this case, that will give you nothing (because the ORACC convention is AAICB I/1). Try to enter less: **1924-1706**. That will get you to the edition of that text. In the left pane you will see the P number (occasionally, you may get a list of text numbers - if you recognize your text, click on it and you'll get the edition). If you cannot find your text, simply skip it
+
 In addition, you can use the following list
 
 P123365 = OIP 115, 016 
