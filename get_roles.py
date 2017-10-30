@@ -1,7 +1,14 @@
-ORACC_FILE = 'raw-data/p001.atf'
-DREHEM_P_IDS_FILE = 'drehem_p_ids.txt'
+import csv
 
-NUM_TEXTS = 25
+ORACC_FILES = ['raw-data/'+name for name in ['p001.atf', 'p002.atf', 'p003.atf', 'p004.atf',
+'p005.atf', 'p006.atf', 'p007.atf', 'p008.atf', 'p009.atf', 'p010.atf',
+'p011.atf', 'p012.atf', 'p013.atf', 'p014.atf', 'p015.atf']]
+DREHEM_P_IDS_FILE = 'drehem_p_ids.txt'
+PROFESSIONS_OUT = 'name_professions.csv'
+
+NUM_TEXTS = 20000
+
+NOT_PROFESSIONS = {'dab[seize]', 'maškim[administrator]', 'šu[hand]'}
 
 class Transaction:
 	def __init__(self, p):
@@ -35,18 +42,27 @@ def get_next_text(input_file, line, drehem_texts):
 		line = next(input_file)
 		# find next text that IS from Drehem
 		while not line.startswith('&P'):
-			line = next(input_file).strip()
+			try:
+				line = next(input_file).strip()
+			except StopIteration:
+				return None
 
 		p_index = get_p_index(line)
-	print(line, '\n')
+	# print(line, '\n')
 	return p_index
+
+def remove_empty_strings(lst):
+	return [x for x in lst if len(x) > 0]
 
 def get_lems_and_words(lem_line, word_line):
 	# lem_line: semicolon-separated list of lemmatizations, starts with '#lem: '
 	# word_line: space-separated line of transliterations, starts with line number ex. '3. '
 	# return: (string) list of lemmatizations/words
-	lems = lem_line[6:].split('; ')
-	words = word_line.split(' ')[1:]
+	lems = remove_empty_strings(lem_line[6:].split('; '))
+	words = remove_empty_strings(word_line.split(' ')[1:])
+	if (len(lems) != len(words)):
+		print('word', words)
+		print('lem', lems)
 	return lems, words
 
 def main():
@@ -56,52 +72,74 @@ def main():
 		# dictionary from name -> lemmatization of profession
 								# (word that comes right after name)
 
-	with open(ORACC_FILE) as input_file:
-		count_texts = 0
-		all_trans = {}		# P_index : Transaction object
-		curr_trans = None
-		for line in input_file:
-			line = line.strip()		# remove \n
-			if line.startswith('&P'):	# new text
-				p_index = get_next_text(input_file, line, drehem_texts)
-				# print(p_index)
-				count_texts += 1
-				if count_texts > NUM_TEXTS:
-					break
-				curr_trans = Transaction(p_index)
-				all_trans[p_index] = curr_trans
-			elif line.startswith('#lem'):
-				print(prev_line)
-				print(line)
-				lems, words = get_lems_and_words(line, prev_line)
-				for i in range(len(lems)):
-					curr_lem, curr_word = lems[i], words[i]
-					if curr_lem == 'PN':
-						if i < len(lems) - 1:
-							professions[curr_word] = (words[i+1], lems[i+1])
-							# print(curr_word, ':', professions[curr_word])
-						curr_trans.people.add(curr_word)
-					if curr_word == 'ki':
-						print(words[i+1], 'is a source')
-						curr_trans.roles['source'] = words[i+1]
-				print('')
-			prev_line = line
+	count_num_names = 0
+	all_professions = set()
+	for oracc_filename in ORACC_FILES:
+		with open(oracc_filename) as input_file:
+			count_texts = 0
+			all_trans = {}		# P_index : Transaction object
+			curr_trans = None
+			for line in input_file:
+				line = line.strip()		# remove \n
+				if line.startswith('&P'):	# new text
+					p_index = get_next_text(input_file, line, drehem_texts)
+					if p_index == None:
+						break
+					# print(p_index)
+					count_texts += 1
+					if count_texts > NUM_TEXTS:
+						break
+					curr_trans = Transaction(p_index)
+					all_trans[p_index] = curr_trans
+				elif line.startswith('#lem'):
+					# print(prev_line)
+					# print(line)
+					lems, words = get_lems_and_words(line, prev_line)
+					line_length = min(len(lems), len(words))
+					for i in range(line_length):
+						curr_lem, curr_word = lems[i], words[i]
+						if curr_lem == 'PN':
+							if curr_word[-3:] == '-ta':
+								curr_word = curr_word[:-3]
+							if i < line_length - 1:
+								count_num_names += 1
+								if lems[i+1] not in NOT_PROFESSIONS:
+									all_professions.add(lems[i+1])
+									if curr_word in professions:
+										# professions[curr_word].add((words[i+1], lems[i+1]))
+										professions[curr_word].add(lems[i+1])
+									else:
+										professions[curr_word] = set()
+										# professions[curr_word].add((words[i+1], lems[i+1]))
+										professions[curr_word].add(lems[i+1])
+								# print(curr_word, ':', professions[curr_word])
+							curr_trans.people.add(curr_word)
+						# if curr_word == 'ki':
+						# 	# print(words[i+1], 'is a source')
+						# 	curr_trans.roles['source'] = words[i+1]
+					# print('')
+				prev_line = line
 
-	print(professions)
-	for t in all_trans.values():
-		print(t)
+	# print(professions)
+	with open(PROFESSIONS_OUT, 'w') as output_file:
+		csv_writer = csv.writer(output_file)
+		csv_writer.writerow(['name', 'professions'])
+		for name, profession in sorted(professions.items(), key=lambda x: x[0]):
+			csv_writer.writerow([name] + list(profession))
+			# print(name+ ':', profession, file=output_file)
+			# print(name, profession)
+
+	print('number of PNs found vs. number of unique names:', count_num_names, len(professions))
+	print('number of unique professions found:', len(all_professions))
+	# for t in all_trans.values():
+	# 	print(t)
 
 main()
 
-# possible questions about professions:
-	# I'm going line by line: could the profession of someone
-		# be not on the same line as their name?
-	# Could the profession not be only one word?
-		# If so, would it extend all the way to the end of the
-			# line with the name?
-	# People's names can probably come in different forms
-
-
+# a thing:
+	# transliteration of a word with '<< >>' doesn't have
+		# corresponding lemmatization
+	# these words look unimportant, generally
 
 
 
