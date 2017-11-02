@@ -129,10 +129,10 @@ def main():
 
 	# print(professions)
 	with open(PROFESSIONS_OUT, 'w') as output_file:
-		csv_writer = csv.writer(output_file)
+		csv_writer = csv.writer(output_file, delimiter=';')
 		csv_writer.writerow(['name', 'professions'])
 		for name, profession in sorted(professions.items(), key=lambda x: x[0]):
-			csv_writer.writerow([name] + list(profession))
+			csv_writer.writerow([name] + [str(profession)])
 			# print(name+ ':', profession, file=output_file)
 			# print(name, profession)
 
