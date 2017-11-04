@@ -4,7 +4,7 @@ ORACC_FILES = ['raw-data/'+name for name in ['p001.atf', 'p002.atf', 'p003.atf',
 'p005.atf', 'p006.atf', 'p007.atf', 'p008.atf', 'p009.atf', 'p010.atf',
 'p011.atf', 'p012.atf', 'p013.atf', 'p014.atf', 'p015.atf']]
 DREHEM_P_IDS_FILE = 'drehem_p_ids.txt'
-PROFESSIONS_OUT = 'name_professions.csv'
+PROFESSIONS_OUT = 'name_prof_pids.csv'
 
 NUM_TEXTS = 20000
 
@@ -68,15 +68,18 @@ def get_lems_and_words(lem_line, word_line):
 def main():
 	drehem_texts = get_drehem_p_ids()
 
-	professions = {}
-		# dictionary from name -> lemmatization of profession
-								# (word that comes right after name)
+	# professions = {}
+	# 	# dictionary from name -> lemmatization of profession
+	# 							# (word that comes right after name)
 
-	count_num_names = 0
-	num_trans_dict = {}
-		# dictionary from name -> number of transactions they appear in
+	# count_num_names = 0
+	# num_trans_dict = {}
+	# 	# dictionary from name -> number of transactions they appear in
 
 	all_professions = set()
+
+	name_prof_pids = []
+
 	for oracc_filename in ORACC_FILES:
 		with open(oracc_filename) as input_file:
 			count_texts = 0
@@ -107,18 +110,19 @@ def main():
 							if curr_word[-3:] == '-ta':
 								curr_word = curr_word[:-3]
 							if i < line_length - 1:
-								count_num_names += 1
+								# count_num_names += 1
 								if lems[i+1] not in NOT_PROFESSIONS:
 									all_professions.add(lems[i+1])
-									if curr_word in professions:
-										# professions[curr_word].add((words[i+1], lems[i+1]))
-										professions[curr_word].add(lems[i+1])
-										num_trans_dict[curr_word] += 1
-									else:
-										professions[curr_word] = set()
-										# professions[curr_word].add((words[i+1], lems[i+1]))
-										professions[curr_word].add(lems[i+1])
-										num_trans_dict[curr_word] = 1
+									name_prof_pids.append([curr_word, lems[i+1], p_index])
+									# if curr_word in professions:
+									# 	# professions[curr_word].add((words[i+1], lems[i+1]))
+									# 	professions[curr_word].add(lems[i+1])
+									# 	num_trans_dict[curr_word] += 1
+									# else:
+									# 	professions[curr_word] = set()
+									# 	# professions[curr_word].add((words[i+1], lems[i+1]))
+									# 	professions[curr_word].add(lems[i+1])
+									# 	num_trans_dict[curr_word] = 1
 								# print(curr_word, ':', professions[curr_word])
 							curr_trans.people.add(curr_word)
 						# if curr_word == 'ki':
@@ -129,21 +133,21 @@ def main():
 
 	# print(professions)
 	with open(PROFESSIONS_OUT, 'w') as output_file:
-		csv_writer = csv.writer(output_file, delimiter=';')
-		csv_writer.writerow(['name', 'professions'])
-		for name, profession in sorted(professions.items(), key=lambda x: x[0]):
-			csv_writer.writerow([name] + [str(profession)])
-			# print(name+ ':', profession, file=output_file)
-			# print(name, profession)
-
-	print('number of PNs found vs. number of unique names:', count_num_names, len(professions))
-	print('number of unique professions found:', len(all_professions))
-
-	with open('transactions_count.csv', 'w') as output_file:
 		csv_writer = csv.writer(output_file)
-		csv_writer.writerow(['name', 'number of transactions'])
-		for name, num in sorted(num_trans_dict.items(), key=lambda x:x[1], reverse=True):
-			csv_writer.writerow([name, num])
+		csv_writer.writerow(['name', 'profession', 'p index'])
+		for row in name_prof_pids:
+			csv_writer.writerow(row)
+		# for name, profession in sorted(professions.items(), key=lambda x: x[0]):
+		# 	csv_writer.writerow([name] + [str(profession)])
+
+	# print('number of PNs found vs. number of unique names:', count_num_names, len(professions))
+	# print('number of unique professions found:', len(all_professions))
+
+	# with open('transactions_count.csv', 'w') as output_file:
+	# 	csv_writer = csv.writer(output_file)
+	# 	csv_writer.writerow(['name', 'number of transactions'])
+	# 	for name, num in sorted(num_trans_dict.items(), key=lambda x:x[1], reverse=True):
+	# 		csv_writer.writerow([name, num])
 
 
 	# for t in all_trans.values():
