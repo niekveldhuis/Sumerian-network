@@ -25,6 +25,8 @@ class Transaction:
 		self.people = set()
 
 		self.line = line;
+
+		self.year = None;
 		
 
 		self.ls_lines_containing_PN = list()
