@@ -2,7 +2,7 @@ import csv
 import codecs
 
 CDLI_FILE = 'cdli_catalogue.csv'
-OUTPUT_FILE = 'drehem_p_ids.txt'
+OUTPUT_FILE = 'drehem_pid_year.csv'
 
 def find_drehem():
 	print('Reading CDLI...')
@@ -10,22 +10,24 @@ def find_drehem():
 		col_labels = csvfile.readline().split(',')
 		p_id_index = col_labels.index('id_text')
 		location_index = col_labels.index('provenience')
+		year_index = col_labels.index('dates_referenced')
 
 		csv_reader = csv.reader(x.replace('\0', '') for x in csvfile) # see check_null_bytes()
 		count = 0
-		p_id_set = set()
+		pid_year_dict = {}
 		for row in csv_reader:
 			if 'Drehem' in row[location_index]:
-				p_id_set.add(row[p_id_index])
+				pid_year_dict[row[p_id_index]] = row[year_index]
 				count += 1
 		print(count, 'texts found from Drehem')
 	# print(p_id_set)
 
 	with open(OUTPUT_FILE, 'w') as output_file:
-		for index in p_id_set:
-			print(index, file=output_file)
+		csv_writer = csv.writer(output_file)
+		for text in pid_year_dict.items():
+			csv_writer.writerow(text)
 
-	return p_id_set
+	return pid_year_dict
 
 def check_null_bytes(csvfile):
 	# conclusion: (only) line 124250 in the csv has a mysterious NULL byte:
