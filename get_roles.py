@@ -80,9 +80,10 @@ def main():
 
 	name_prof_pids = []
 
+	count_texts, num_PNs = 0, 0
+
 	for oracc_filename in ORACC_FILES:
 		with open(oracc_filename) as input_file:
-			count_texts = 0
 			all_trans = {}		# P_index : Transaction object
 			curr_trans = None
 			for line in input_file:
@@ -107,23 +108,24 @@ def main():
 						if curr_word == 'mu':	# ignore names in year name
 							break
 						if curr_lem == 'PN':
+							num_PNs += 1
 							if curr_word[-3:] == '-ta':
 								curr_word = curr_word[:-3]
-							if i < line_length - 1:
-								# count_num_names += 1
-								if lems[i+1] not in NOT_PROFESSIONS:
-									all_professions.add(lems[i+1])
-									name_prof_pids.append([curr_word, lems[i+1], p_index])
-									# if curr_word in professions:
-									# 	# professions[curr_word].add((words[i+1], lems[i+1]))
-									# 	professions[curr_word].add(lems[i+1])
-									# 	num_trans_dict[curr_word] += 1
-									# else:
-									# 	professions[curr_word] = set()
-									# 	# professions[curr_word].add((words[i+1], lems[i+1]))
-									# 	professions[curr_word].add(lems[i+1])
-									# 	num_trans_dict[curr_word] = 1
+							if i < line_length - 1 and lems[i+1] not in NOT_PROFESSIONS:
+								all_professions.add(lems[i+1])
+								name_prof_pids.append([curr_word, lems[i+1], p_index])
+								# if curr_word in professions:
+								# 	# professions[curr_word].add((words[i+1], lems[i+1]))
+								# 	professions[curr_word].add(lems[i+1])
+								# 	num_trans_dict[curr_word] += 1
+								# else:
+								# 	professions[curr_word] = set()
+								# 	# professions[curr_word].add((words[i+1], lems[i+1]))
+								# 	professions[curr_word].add(lems[i+1])
+								# 	num_trans_dict[curr_word] = 1
 								# print(curr_word, ':', professions[curr_word])
+							else:
+								name_prof_pids.append([curr_word, 'None', p_index])
 							curr_trans.people.add(curr_word)
 						# if curr_word == 'ki':
 						# 	# print(words[i+1], 'is a source')
@@ -139,6 +141,7 @@ def main():
 			csv_writer.writerow(row)
 		# for name, profession in sorted(professions.items(), key=lambda x: x[0]):
 		# 	csv_writer.writerow([name] + [str(profession)])
+	print(num_PNs, 'PNs found')
 
 	# print('number of PNs found vs. number of unique names:', count_num_names, len(professions))
 	# print('number of unique professions found:', len(all_professions))
