@@ -1,522 +1,523 @@
-year, 1578
-moon, 1491
-king, 1381
-unit, 1341
-place, 1006
-child, 777
-scribe, 595
-bad, 532
-sun, 526
-barley, 489
-hand, 451
-approach, 432
-slave, 381
-seize, 347
-hire, 337
-strong, 307
-textile, 302
-delivery, 276
-foot, 274
-male, 269
-follow, 244
-priest, 243
-heart, 239
-seal, 234
-quarter, 222
-sky, 221
-four, 205
-equid, 197
-flour, 182
-build, 178
-pulse, 175
-and, 174
-total, 170
-person, 167
-beer, 162
-small, 162
-administrator, 160
-woman, 158
-house, 150
-side, 148
-reed, 144
-go, 143
-overseer, 132
-arm, 126
-festival, 123
-ruler, 123
-rare, 118
-times, 109
-expenditure, 104
-roast, 98
-turn, 97
-official, 93
-tufted, 90
-young, 89
-create, 86
-wall, 84
-~animal, 84
-be, 82
-land, 81
-field, 73
-offerings, 73
-fattener, 67
-garlic, 67
-shepherd, 63
-garden, 61
-hair, 60
-head, 60
-fish, 59
-secretary, 59
-westerner, 58
-garment, 57
-pass, 54
-acquire, 50
-dog, 50
-fattened, 50
-ration, 49
-ghee, 48
-semolina, 48
-ship, 48
-weaver, 48
-archivist, 47
-exceed, 47
-chair, 45
-seed, 45
-allot, 44
-worker, 44
-bread, 42
-spread, 42
-big, 41
-arrears, 40
-cook, 40
-cup-bearer, 40
-cut, 39
-soldier, 39
-two-thirds, 39
-~cloth, 39
-farmer, 38
-face, 37
-pair, 37
-affliction, 36
-oil, 36
-basket, 35
-cowherd, 35
-milk, 34
-emmer, 33
-stand, 33
-pot, 32
-weight, 32
-account, 31
-people, 30
-rider, 30
-spouse, 30
-tree, 30
-doorkeeper, 29
-kid, 29
-shoe, 29
-bird, 28
-animal, 27
-do, 27
-replace, 27
-runner, 27
-cvve, 25
-storeroom, 25
-eat, 24
-palace, 24
-cheese, 23
-ewe, 23
-long, 23
-stockyard?, 23
-begin, 22
-daughter, 22
-loosen, 21
-metal, 21
-hoe, 20
-old, 20
-donkey, 19
-wort, 19
-food, 18
-general, 18
-belt, 17
-copy, 17
-groats, 17
-brewer, 16
-kitchen, 16
-prayer, 16
-stone, 16
-two, 16
-wood, 16
-father, 15
-horse, 15
-balance, 14
-building, 14
-date, 14
-fuller, 13
-loan, 13
-mix, 13
-orchard, 13
-sesame, 13
-skin, 13
-wheat, 13
-wide, 13
-skull, 12
-water, 12
-barber, 11
-gardener, 11
-good, 11
-interest, 11
-menial, 11
-puppy, 11
-rise, 11
-several, 11
-yoke, 11
-firm, 10
-gate, 10
-mat, 10
-offering, 10
-speak, 10
-stag, 10
-white, 10
-bag, 9
-beat, 9
-beloved, 9
-bring, 9
-cord, 9
-cvne, 9
-go around, 9
-laborer, 9
-lard, 9
-merchant, 9
-priestess, 9
-sit, 9
-work, 9
-apple, 8
-bed, 8
-bitumen, 8
-brother, 8
-condiment, 8
-find, 8
-grass, 8
-implement, 8
-night, 8
-pour, 8
-red, 8
-sailor, 8
-sickle, 8
-speckled, 8
-strap, 8
-thick, 8
-tool, 8
-unmng, 8
-way, 8
-bale, 7
-bran, 7
-clear, 7
-coriander, 7
-disappear, 7
-doorkeeper?, 7
-fill, 7
-gift, 7
-hang, 7
-impose, 7
-lady, 7
-leatherworker, 7
-leave, 7
-locus, 7
-lustration, 7
-outside, 7
-plant, 7
-property, 7
-ram, 7
-senior, 7
-smaller, 7
-son, 7
-clay, 6
-double, 6
-dry, 6
-fibers, 6
-fig, 6
-flesh, 6
-fodder, 6
-give, 6
-herdsman, 6
-kill, 6
-know, 6
-lentil?, 6
-malt, 6
-messenger, 6
-musician, 6
-poplar, 6
-reeds, 6
-rejoice, 6
-shield, 6
-thing, 6
-tiller, 6
-weir, 6
-winnow?, 6
-~silver, 6
-abandon, 5
-attendant, 5
-back, 5
-beam, 5
-booty, 5
-bull, 5
-cake, 5
-carpenter, 5
-city, 5
-deity, 5
-egg, 5
-flax, 5
-foreigner, 5
-goose, 5
-grow, 5
-miller, 5
-mouth, 5
-pole, 5
-prince, 5
-right, 5
-space, 5
-store, 5
-storehouse, 5
-vine, 5
-bowl, 4
-bundle, 4
-collect, 4
-courtyard, 4
-fisherman, 4
-granary, 4
-herd, 4
-inspection, 4
-inspector, 4
-judge, 4
-nail, 4
-pay for, 4
-payment, 4
-profit, 4
-sheephouse, 4
-shrine, 4
-soil, 4
-string, 4
-touch, 4
-turtle, 4
-vegetable, 4
-village, 4
-weak, 4
-word, 4
-branch, 3
-builder, 3
-cauldron, 3
-checked, 3
-chest, 3
-clothing, 3
-corpse, 3
-different, 3
-drover, 3
-fair, 3
-fall, 3
-felter, 3
-fox, 3
-gypsum, 3
-line, 3
-lion, 3
-mattress, 3
-mother, 3
-new, 3
-oil-presser, 3
-pig, 3
-plank, 3
-river, 3
-roof, 3
-run, 3
-salt, 3
-singer, 3
-smith, 3
-split, 3
-supervisor, 3
-sweeper, 3
-thicket, 3
-tower, 3
-translator, 3
-weapon, 3
-~beer, 3
-~fish, 3
-add, 2
-arrow, 2
-ascend, 2
-ax, 2
-bathroom, 2
-bind, 2
-blackness, 2
-breeder, 2
-bride, 2
-consignment, 2
-constant, 2
-cross-beam, 2
-cypress, 2
-deficit, 2
-destroy, 2
-diviner, 2
-document, 2
-emblem, 2
-expert, 2
-fat, 2
-flayer, 2
-fluid, 2
-fountain, 2
-grind, 2
-harbor, 2
-hole, 2
-imprisonment, 2
-instrument, 2
-meadow, 2
-meal, 2
-moth-eaten, 2
-not, 2
-nursemaid, 2
-one, 2
-pluck, 2
-post, 2
-potash, 2
-praise, 2
-ring, 2
-root, 2
-sack, 2
-shipyard, 2
-shoulder, 2
-sister, 2
-square, 2
-table, 2
-tail, 2
-tamarisk, 2
-tax-collector, 2
-test, 2
-tremble, 2
-trust, 2
-tuft, 2
-wailing, 2
-waste, 2
-water drawer, 2
-waterskin, 2
-wet, 2
-~flour, 2
-abuse, 1
-anoint, 1
-aromatics, 1
-assignment, 1
-banquet, 1
-barge, 1
-bird-catcher, 1
-board, 1
-bow, 1
-boxwood, 1
-break, 1
-burn, 1
-buttocks, 1
-calf, 1
-carnelian, 1
-cart, 1
-cat, 1
-chaff, 1
-charcoal, 1
-chariot, 1
-cloister, 1
-comb, 1
-come on!, 1
-companion, 1
-complete, 1
-container, 1
-count, 1
-decoration, 1
-diminish, 1
-divide, 1
-dove, 1
-dragon, 1
-driver, 1
-duckling, 1
-dwelling, 1
-ear, 1
-encircle, 1
-enter, 1
-entirety, 1
-estate, 1
-extra, 1
-first, 1
-fish-storage, 1
-forest, 1
-foundation, 1
-functionary, 1
-glue, 1
-grave, 1
-guarantee, 1
-hand-mill, 1
-harvest, 1
-helper?, 1
-heron, 1
-if, 1
-lapis, 1
-levee, 1
-live, 1
-load, 1
-lord, 1
-lower, 1
-man, 1
-manacles, 1
-material, 1
-mayor, 1
-meat house, 1
-midrib, 1
-mouse, 1
-nose-rope, 1
-oath, 1
-offspring, 1
-possessions, 1
-price, 1
-prison, 1
-pure, 1
-put, 1
-quotient, 1
-rail, 1
-raise, 1
-raven, 1
-rear, 1
-recorder, 1
-remainder, 1
-requisitions, 1
-rodent, 1
-rushes, 1
-sanctum, 1
-scrape, 1
-seek, 1
-shade, 1
-sheaf, 1
-shed?, 1
-sheepfold, 1
-snake, 1
-snap, 1
-sound, 1
-soup, 1
-sow, 1
-spadix, 1
-sparrow, 1
-statue, 1
-status, 1
-stele, 1
-stone-cutter, 1
-street, 1
-supplies, 1
-syrup, 1
-tablet, 1
-tears, 1
-treasure, 1
-vessel, 1
-voice, 1
-weep, 1
-what?, 1
-whip, 1
-workshop, 1
-write, 1
-youth, 1
-~boat, 1
-~dairy, 1
-~plow, 1
-~ritual, 1
+Word, Frequency, List of Sumerian Words
+year, 1578, ['mu']
+moon, 1491, ['itud', 'usakar']
+king, 1381, ['lugal']
+unit, 1341, ['bariga', 'PI', 'gur', 'gurlugal', 'kuli', 'kuš', 'mana', 'iku', 'sila', 'dana', 'giŋ', 'ul']
+place, 1006, ['ki', 'ku', 'ŋar']
+child, 777, ['dumu']
+scribe, 595, ['dubsar']
+bad, 532, ['hulu']
+sun, 526, ['ud']
+barley, 489, ['in.nu.HA', 'hazin', 'še']
+hand, 451, ['tibir', 'šu']
+approach, 432, ['teŋ']
+slave, 381, ['arad']
+seize, 347, ['dab']
+hire, 337, ['huŋ']
+strong, 307, ['kalag']
+textile, 302, ['tug', 'guʾe']
+delivery, 276, ['mu.DU']
+foot, 274, ['ŋiri']
+male, 269, ['ŋuruš', 'nita']
+follow, 244, ['us']
+priest, 243, ['enzid', 'išib', 'atua', 'lumumun', 'nusaŋ', 'ennun', 'nuʾešak', 'lumah', 'en']
+heart, 239, ['šag']
+seal, 234, ['kišib']
+quarter, 222, ['anubda']
+sky, 221, ['an']
+four, 205, ['limmu']
+equid, 197, ['kunga', 'anše', 'dusu', 'anšeʾedenak', 'šagan']
+flour, 182, ['zidgu', 'zid', 'eša', 'zidsig']
+build, 178, ['du']
+pulse, 175, ['gu']
+and, 174, ['u']
+total, 170, ['niŋin', 'šuniŋin']
+person, 167, ['lu']
+beer, 162, ['kaš']
+small, 162, ['tur', 'lal']
+administrator, 160, ['šabra', 'šarrabdu', 'maškim']
+woman, 158, ['munus']
+house, 150, ['e', 'ŋa']
+side, 148, ['dag', 'zag', 'us']
+reed, 144, ['giruš', 'gizi', 'gi', 'gigid']
+go, 143, ['ere', 'du', 'ŋen']
+overseer, 132, ['ugula', 'nubanda']
+arm, 126, ['a']
+festival, 123, ['ešeš', 'ezem', 'akiti']
+ruler, 123, ['ensik']
+rare, 118, ['sag', 'kal']
+times, 109, ['ara']
+expenditure, 104, ['ziga']
+roast, 98, ['sa']
+turn, 97, ['bala', 'gur', 'gi']
+official, 93, ['sukkalmah', 'guzala', 'kuš', 'kurunakgal', 'lukala', 'šatam', 'saŋŋa', 'zabardab', 'dubsarmah']
+tufted, 90, ['guz']
+young, 89, ['amar']
+create, 86, ['dim']
+wall, 84, ['bad']
+~animal, 84, ['gurgur', 'šugid', 'nua']
+be, 82, ['ŋal', 'me']
+land, 81, ['iginim', 'kalam', 'mada']
+field, 73, ['ašag']
+offerings, 73, ['šuagina', 'sadug']
+fattener, 67, ['kurušda']
+garlic, 67, ['šum']
+shepherd, 63, ['sipad']
+garden, 61, ['sar', 'kirimah']
+hair, 60, ['siki']
+head, 60, ['saŋdu', 'saŋ']
+fish, 59, ['kud', 'gir']
+secretary, 59, ['sukkal']
+westerner, 58, ['MAR.TU']
+garment, 57, ['agiaʾum', 'bardul', 'rabatum', 'barsig', 'niŋlam']
+pass, 54, ['zal']
+acquire, 50, ['tuku']
+dog, 50, ['urgir', 'ur']
+fattened, 50, ['niga']
+ration, 49, ['sikiba', 'šeba', 'šukur']
+ghee, 48, ['inun']
+semolina, 48, ['dabin']
+ship, 48, ['ma']
+weaver, 48, ['ad.KID', 'ušbar']
+archivist, 47, ['bisaŋdubak']
+exceed, 47, ['dirig']
+chair, 45, ['guza']
+seed, 45, ['šenumun', 'šunumun', 'numun']
+allot, 44, ['ba']
+worker, 44, ['ziʾa', 'hedab', 'geme']
+bread, 42, ['ninda', 'gagartum']
+spread, 42, ['du']
+big, 41, ['gal']
+arrears, 40, ['laʾu']
+cook, 40, ['muhaldimgal', 'muhaldim', 'šeŋ']
+cup-bearer, 40, ['šagiagal', 'šagia', 'šagiamah']
+cut, 39, ['kud', 'tar', 'zi']
+soldier, 39, ['gardu', 'agaʾus']
+two-thirds, 39, ['šanabi']
+~cloth, 39, ['šar']
+farmer, 38, ['engar']
+face, 37, ['igi']
+pair, 37, ['eban']
+affliction, 36, ['duga']
+oil, 36, ['i', 'iŋeš']
+basket, 35, ['gurdub', 'bandudu', 'ŋirlam', 'dupsik', 'masab', 'hal', 'bisaŋ']
+cowherd, 35, ['unud']
+milk, 34, ['ga']
+emmer, 33, ['ziz', 'imŋaŋa']
+stand, 33, ['udda', 'gub']
+pot, 32, ['hal', 'ŠID', 'dug']
+weight, 32, ['kila']
+account, 31, ['niŋ₂.ŠID']
+people, 30, ['erin']
+rider, 30, ['ragaba']
+spouse, 30, ['dam']
+tree, 30, ['halub', 'šedug', 'armanu', 'usuh', 'ŋeš']
+doorkeeper, 29, ['idu']
+kid, 29, ['ašgar']
+shoe, 29, ['aburuma', 'esir']
+bird, 28, ['gamgam', 'zapihum', 'mušen', 'gubi', 'usim', 'ganu', 'šegšeg', 'uʾaz', 'um', 'kib', 'nu', 'arabu', 'ubi', 'adardarak', 'irani', 'uburri', 'durum']
+animal, 27, ['habum', 'šeŋbar', 'gidim']
+do, 27, ['ak']
+replace, 27, ['sug']
+runner, 27, ['kaš']
+cvve, 25, ['mur', 'ir', 'taka', 'da', 'KA', 'tu', 'hub']
+storeroom, 25, ['ekišibak']
+eat, 24, ['gu']
+palace, 24, ['egal']
+cheese, 23, ['gaʾar']
+ewe, 23, ['u']
+long, 23, ['gid']
+stockyard?, 23, ['nakabtum']
+begin, 22, ['tab']
+daughter, 22, ['dumumunus']
+loosen, 21, ['duh']
+metal, 21, ['kug', 'anna']
+hoe, 20, ['habuda', 'al']
+old, 20, ['sumun', 'libir']
+donkey, 19, ['dur', 'eme']
+wort, 19, ['dida']
+food, 18, ['šaggal']
+general, 18, ['šakkanak']
+belt, 17, ['šagadu']
+copy, 17, ['gabari']
+groats, 17, ['arzana', 'niŋara']
+brewer, 16, ['lungak']
+kitchen, 16, ['emuhaldim']
+prayer, 16, ['siškur']
+stone, 16, ['na', 'nir', 'gulgul', 'šuba', 'dušia', 'mašda']
+two, 16, ['min']
+wood, 16, ['manu']
+father, 15, ['adda', 'aya', 'abba']
+horse, 15, ['sisi']
+balance, 14, ['situm']
+building, 14, ['eʾudsakar', 'eʾuzga']
+date, 14, ['zulum']
+fuller, 13, ['azlag']
+loan, 13, ['urra']
+mix, 13, ['hi']
+orchard, 13, ['kiri', 'pu']
+sesame, 13, ['ŋeši']
+skin, 13, ['kuš']
+wheat, 13, ['kib']
+wide, 13, ['daŋal']
+skull, 12, ['ugu']
+water, 12, ['a', 'abzu']
+barber, 11, ['šuʾi']
+gardener, 11, ['santanak', 'nukirik']
+good, 11, ['sag', 'dug']
+interest, 11, ['maš']
+menial, 11, ['UN.IL₂']
+puppy, 11, ['urtur']
+rise, 11, ['zig']
+several, 11, ['didli']
+yoke, 11, ['erin']
+firm, 10, ['gin']
+gate, 10, ['abula', 'kan']
+mat, 10, ['kida', 'kid']
+offering, 10, ['nesaŋ', 'nindaba', 'arua', 'burgia']
+speak, 10, ['e', 'di', 'dug']
+stag, 10, ['lulim']
+white, 10, ['babbar']
+bag, 9, ['duggan']
+beat, 9, ['sag', 'rah']
+beloved, 9, ['kiʾaŋa']
+bring, 9, ['de', 'lah', 'tum']
+cord, 9, ['gu']
+cvne, 9, ['ugu', 'en', 'HI', 'na']
+go around, 9, ['dub']
+laborer, 9, ['saŋdub']
+lard, 9, ['išah']
+merchant, 9, ['damgar']
+priestess, 9, ['erešdiŋir', 'igidua', 'egizid', 'lukur']
+sit, 9, ['tuš']
+work, 9, ['kiŋ']
+apple, 8, ['hašhur']
+bed, 8, ['ŋešnud']
+bitumen, 8, ['esir']
+brother, 8, ['šeš']
+condiment, 8, ['gazi']
+find, 8, ['pad']
+grass, 8, ['u']
+implement, 8, ['umbin']
+night, 8, ['ŋi']
+pour, 8, ['de']
+red, 8, ['su', 'dara']
+sailor, 8, ['malah']
+sickle, 8, ['kin']
+speckled, 8, ['gunu']
+strap, 8, ['saŋkešed']
+thick, 8, ['peš', 'gur']
+tool, 8, ['ba']
+unmng, 8, ['zagaba', 'gur', 'luga', 'igigi', 'era', 'niŋdaga', 'ŋešgid', 'darag', 'barakara']
+way, 8, ['kaskal']
+bale, 7, ['guniŋin']
+bran, 7, ['duh']
+clear, 7, ['sig']
+coriander, 7, ['šelu']
+disappear, 7, ['zah']
+doorkeeper?, 7, ['atu']
+fill, 7, ['si']
+gift, 7, ['sarig', 'kadra', 'niŋmussa', 'niŋba']
+hang, 7, ['la']
+impose, 7, ['ri']
+lady, 7, ['nin']
+leatherworker, 7, ['ašgab']
+leave, 7, ['e']
+locus, 7, ['kisur', 'ŋešanaŋ', 'kiʾutu', 'kiʾanaŋ', 'kiʾana', 'dukug', 'sur']
+lustration, 7, ['atua']
+outside, 7, ['bar']
+plant, 7, ['maš', 'adar', 'hab', 'gugutum']
+property, 7, ['niŋurum', 'niŋgur']
+ram, 7, ['udunita']
+senior, 7, ['šugi']
+smaller, 7, ['didila']
+son, 7, ['dumunita']
+clay, 6, ['im']
+double, 6, ['tab']
+dry, 6, ['ah', 'šarag']
+fibers, 6, ['mangaga']
+fig, 6, ['peš']
+flesh, 6, ['su', 'uzu']
+fodder, 6, ['murgu']
+give, 6, ['šum']
+herdsman, 6, ['nagada', 'udul']
+kill, 6, ['gaz']
+know, 6, ['zu']
+lentil?, 6, ['gutur']
+malt, 6, ['munu']
+messenger, 6, ['kiŋgia']
+musician, 6, ['nar']
+poplar, 6, ['asal']
+reeds, 6, ['ninni']
+rejoice, 6, ['hul']
+shield, 6, ['duksium']
+thing, 6, ['niŋ']
+tiller, 6, ['apinla']
+weir, 6, ['kunzida']
+winnow?, 6, ['sal']
+~silver, 6, ['NE']
+abandon, 5, ['taka']
+attendant, 5, ['ŋirsiga']
+back, 5, ['egir', 'eden']
+beam, 5, ['ŋušur']
+booty, 5, ['namraʾak']
+bull, 5, ['am']
+cake, 5, ['gug']
+carpenter, 5, ['nagar']
+city, 5, ['iri']
+deity, 5, ['diŋir', 'lammar']
+egg, 5, ['nunuz']
+flax, 5, ['gada']
+foreigner, 5, ['ubar']
+goose, 5, ['u', 'šuʾura', 'kurgi']
+grow, 5, ['mu']
+miller, 5, ['kinkin']
+mouth, 5, ['kag']
+pole, 5, ['gabatab', 'nindan', 'gimuš']
+prince, 5, ['nun']
+right, 5, ['zid']
+space, 5, ['dalbana']
+store, 5, ['guru']
+storehouse, 5, ['ŋanun', 'šutum']
+vine, 5, ['ŋeštin']
+bowl, 4, ['burzi']
+bundle, 4, ['sa']
+collect, 4, ['deg', 'kul']
+courtyard, 4, ['kisal']
+fisherman, 4, ['šukud', 'salhuba']
+granary, 4, ['idub']
+herd, 4, ['KUr', 'niŋki']
+inspection, 4, ['gurum']
+inspector, 4, ['gugal']
+judge, 4, ['dikud']
+nail, 4, ['gag']
+pay for, 4, ['sa']
+payment, 4, ['mašdarea']
+profit, 4, ['dun']
+sheephouse, 4, ['eʾudu']
+shrine, 4, ['eš']
+soil, 4, ['sahar']
+string, 4, ['šusar', 'šergu']
+touch, 4, ['tag']
+turtle, 4, ['balgi', 'niŋbuna']
+vegetable, 4, ['šumsikil', 'zahadin']
+village, 4, ['eduru']
+weak, 4, ['hunu', 'sig']
+word, 4, ['inim']
+branch, 3, ['li', 'pa']
+builder, 3, ['šidim', 'šidimgal']
+cauldron, 3, ['šen']
+checked, 3, ['kabduga']
+chest, 3, ['gaba']
+clothing, 3, ['aguhum']
+corpse, 3, ['adda']
+different, 3, ['kur']
+drover, 3, ['šagud', 'gudeʾusa']
+fair, 3, ['sisa']
+fall, 3, ['šub']
+felter, 3, ['tugdu']
+fox, 3, ['kaʾa']
+gypsum, 3, ['imbabbar']
+line, 3, ['da']
+lion, 3, ['urmah']
+mattress, 3, ['šatuku']
+mother, 3, ['ama']
+new, 3, ['gibil']
+oil-presser, 3, ['irara']
+pig, 3, ['šah']
+plank, 3, ['miriza', 'emesig']
+river, 3, ['id']
+roof, 3, ['ur']
+run, 3, ['sar']
+salt, 3, ['mun']
+singer, 3, ['gala', 'galamah']
+smith, 3, ['simug', 'kugdim']
+split, 3, ['dar']
+supervisor, 3, ['kaguruk']
+sweeper, 3, ['kisalluh']
+thicket, 3, ['gi']
+tower, 3, ['anzagar', 'dubla']
+translator, 3, ['emebala']
+weapon, 3, ['šita', 'zena', 'tukul']
+~beer, 3, ['bappir']
+~fish, 3, ['šabar']
+add, 2, ['tah']
+arrow, 2, ['ti']
+ascend, 2, ['ed']
+ax, 2, ['hazin', 'tun']
+bathroom, 2, ['dus']
+bind, 2, ['kešed']
+blackness, 2, ['mes']
+breeder, 2, ['ŋešdu']
+bride, 2, ['egia']
+consignment, 2, ['šušuma', 'šulaʾa']
+constant, 2, ['saŋus']
+cross-beam, 2, ['tum']
+cypress, 2, ['šurmen']
+deficit, 2, ['imba']
+destroy, 2, ['gul']
+diviner, 2, ['maššugidgid']
+document, 2, ['sara']
+emblem, 2, ['šunir', 'samsatum']
+expert, 2, ['ummia']
+fat, 2, ['lib']
+flayer, 2, ['susig']
+fluid, 2, ['aŋarak']
+fountain, 2, ['tul']
+grind, 2, ['ara']
+harbor, 2, ['kar']
+hole, 2, ['KU']
+imprisonment, 2, ['ennuŋ']
+instrument, 2, ['zamiritum', 'balaŋ', 'urgula']
+meadow, 2, ['agar']
+meal, 2, ['naptanum', 'ŋešbun']
+moth-eaten, 2, ['zuʾeh']
+not, 2, ['nu']
+nursemaid, 2, ['emeda']
+one, 2, ['aš']
+pluck, 2, ['ur']
+post, 2, ['dim']
+potash, 2, ['naŋa']
+praise, 2, ['katar']
+ring, 2, ['šugur', 'dalla', 'har']
+root, 2, ['ur']
+sack, 2, ['aŋala', 'barag']
+shipyard, 2, ['marsa']
+shoulder, 2, ['murgu']
+sister, 2, ['nin']
+square, 2, ['ibsi']
+table, 2, ['banšur']
+tail, 2, ['kun']
+tamarisk, 2, ['šinig']
+tax-collector, 2, ['enkud']
+test, 2, ['kab']
+tremble, 2, ['dub']
+trust, 2, ['tam']
+tuft, 2, ['suhur']
+wailing, 2, ['giranum']
+waste, 2, ['kiʾuš']
+water drawer, 2, ['abala']
+waterskin, 2, ['ummud']
+wet, 2, ['duru']
+~flour, 2, ['dubdub']
+abuse, 1, ['in']
+anoint, 1, ['peš']
+aromatics, 1, ['šim']
+assignment, 1, ['aʾaŋa']
+banquet, 1, ['kašdea']
+barge, 1, ['magur']
+bird-catcher, 1, ['mušendu']
+board, 1, ['eda']
+bow, 1, ['pana']
+boxwood, 1, ['taškarin']
+break, 1, ['zir']
+burn, 1, ['bil']
+buttocks, 1, ['gudu', 'dur']
+calf, 1, ['amarga']
+carnelian, 1, ['zagul', 'gug']
+cart, 1, ['margida']
+cat, 1, ['sua']
+chaff, 1, ['e']
+charcoal, 1, ['ubila']
+chariot, 1, ['gigir']
+cloister, 1, ['ŋipar']
+comb, 1, ['garig']
+come on!, 1, ['gana']
+companion, 1, ['taba']
+complete, 1, ['til']
+container, 1, ['kabkul']
+count, 1, ['šid']
+decoration, 1, ['ugunu']
+diminish, 1, ['be']
+divide, 1, ['hal']
+dove, 1, ['tugur']
+dragon, 1, ['ušumgal']
+driver, 1, ['kiridab']
+duckling, 1, ['amarsag']
+dwelling, 1, ['unu', 'kituš']
+ear, 1, ['ŋeštug']
+encircle, 1, ['niŋin']
+enter, 1, ['kur']
+entirety, 1, ['guʾen']
+estate, 1, ['edula']
+extra, 1, ['niŋdirig']
+first, 1, ['dubsaŋ']
+fish-storage, 1, ['masar']
+forest, 1, ['tir']
+foundation, 1, ['suhuš']
+functionary, 1, ['urur']
+glue, 1, ['šegin']
+grave, 1, ['kimah']
+guarantee, 1, ['šuduʾa']
+hand-mill, 1, ['ara']
+harvest, 1, ['buru']
+helper?, 1, ['katab']
+heron, 1, ['igira']
+if, 1, ['uda', 'tukum']
+lapis, 1, ['zagin']
+levee, 1, ['eg']
+live, 1, ['til']
+load, 1, ['gun']
+lord, 1, ['en']
+lower, 1, ['kita']
+man, 1, ['na']
+manacles, 1, ['ala']
+material, 1, ['zu']
+mayor, 1, ['hazanum']
+meat house, 1, ['eʾuzu']
+midrib, 1, ['zena']
+mouse, 1, ['peš']
+nose-rope, 1, ['kab']
+oath, 1, ['namerim']
+offspring, 1, ['utuda']
+possessions, 1, ['niŋŋala']
+price, 1, ['niŋsam']
+prison, 1, ['egula']
+pure, 1, ['dan']
+put, 1, ['sig']
+quotient, 1, ['banda']
+rail, 1, ['šasi']
+raise, 1, ['il']
+raven, 1, ['uga']
+rear, 1, ['aga']
+recorder, 1, ['saŋ.DUN₃']
+remainder, 1, ['ibtag']
+requisitions, 1, ['niŋdab']
+rodent, 1, ['girgir']
+rushes, 1, ['aški']
+sanctum, 1, ['barag']
+scrape, 1, ['hu']
+seek, 1, ['kiŋ']
+shade, 1, ['andul']
+sheaf, 1, ['gula', 'zar']
+shed?, 1, ['wadaltum']
+sheepfold, 1, ['amaš']
+snake, 1, ['muš']
+snap, 1, ['hum']
+sound, 1, ['wuwa']
+soup, 1, ['tu']
+sow, 1, ['uru']
+spadix, 1, ['aʾan']
+sparrow, 1, ['buru']
+statue, 1, ['alan']
+status, 1, ['namdumu']
+stele, 1, ['narua']
+stone-cutter, 1, ['zadim']
+street, 1, ['sila']
+supplies, 1, ['niŋgude']
+syrup, 1, ['lal']
+tablet, 1, ['dub']
+tears, 1, ['er']
+treasure, 1, ['gil']
+vessel, 1, ['ešda', 'tunla', 'kunrim', 'gurgur', 'šušŋar', 'anzam']
+voice, 1, ['gu']
+weep, 1, ['šeš']
+what?, 1, ['ana']
+whip, 1, ['usan']
+workshop, 1, ['ŋeškiŋti']
+write, 1, ['sar']
+youth, 1, ['šul']
+~boat, 1, ['ara']
+~dairy, 1, ['gašea']
+~plow, 1, ['eme']
+~ritual, 1, ['niŋbiluda']
