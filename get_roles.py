@@ -1,5 +1,6 @@
 import csv
 from process_names import get_norm_name_dict, norm_name, clean_name
+from process_dates import get_pid_date_dict
 
 ORACC_FILES = ['raw-data/'+name for name in ['p001.atf', 'p002.atf', 'p003.atf', 'p004.atf',
 'p005.atf', 'p006.atf', 'p007.atf', 'p008.atf', 'p009.atf', 'p010.atf',
@@ -33,13 +34,14 @@ ROLE_KEYWORDS = {
 	# these cases will not be found by this script.
 
 class Transaction:
-	def __init__(self, p, date=''):
+	def __init__(self, p, date='', og_date = ''):
 		self.p_index = p
 		# can add date/place/etc.
 		self.roles = {}
 			# role name: name of person (ex. 'source': 'Turamdatan')
 		self.people = set()
 		self.date = date
+		self.original_date = og_date
 
 	def __str__(self):
 		return 'P' + str(self.p_index) + ': \n\t' + str(self.roles) + '\n\t' + str(self.people)
@@ -47,10 +49,9 @@ class Transaction:
 class Person:
 	def __init__(self):
 		self.family = ''
-		self.professions = set()
-		self.pids = []
-		self.dates = []
-		self.roles = []
+		self.professions = ''
+		self.pid = ''
+		self.roles = ''
 		self.name = None
 
 	def __str__(self):
@@ -62,14 +63,6 @@ def get_drehem_p_ids():
 		for line in read_file:
 			p_sets.add(line[:-1])
 	return p_sets
-
-def get_pid_dates():
-	pid_date_d = {}
-	with open(PID_DATE_FILE) as input_file:
-		csv_reader = csv.reader(input_file)
-		for row in csv_reader:
-			pid_date_d[row[0]] = row[1]
-	return pid_date_d
 
 def get_p_index(line):
 	# line of the form '&P100259 = ...': return '100259'
@@ -110,7 +103,7 @@ def process_PN(first_line_len, word_list, lem_list, trans, norm_name_dict):
 		return
 
 	new_person = Person()
-	new_person.pids.append(trans.p_index)
+	new_person.pid = trans.p_index
 	roles = set()
 
 	i = 0
@@ -165,7 +158,7 @@ def process_PN(first_line_len, word_list, lem_list, trans, norm_name_dict):
 					# to remove things like PN, GN, DN
 						# if these things are actually useful, can add them back
 			if i < first_line_len and word not in FAMILY_WORDS and '[' in lem:
-				new_person.professions.add(lem)
+				new_person.profession = lem
 				i = first_line_len - 1 		# each person only has one profession
 
 		i += 1
@@ -178,26 +171,18 @@ def process_PN(first_line_len, word_list, lem_list, trans, norm_name_dict):
 		# print(new_person, roles, new_person.family, new_person.professions)
 		# print(new_person, lem_list)
 		return 0, new_person
-	new_person.roles.append(roles)
+	new_person.roles = roles
 	return 1, new_person
 
 	# output_data.append([name, PN_info['role'], PN_info['profs'], PN_info['family'], p_index, date])
 
-def lst_to_str(lst):
-	lst = list(lst)    # sometimes it's a set
-	lst = [x for x in lst if len(x) > 0]
-	if len(lst) == 0:
-		return ''
-	else:
-		return lst
-
 def make_csv_row(person):
-	return person.name, person.norm_name, lst_to_str(person.roles), lst_to_str(person.professions), \
-				person.family, lst_to_str(person.pids), lst_to_str(person.dates)
+	return person.name, person.norm_name, str(person.roles), person.professions, \
+				person.family, person.pid, person.date_name, person.processed_date
 
 def main():
 	drehem_texts = get_drehem_p_ids()
-	pid_date_dict = get_pid_dates()
+	pid_date_dict = get_pid_date_dict()
 	norm_name_dict = get_norm_name_dict()
 
 	count_texts = 0
@@ -225,8 +210,11 @@ def main():
 					if count_texts > NUM_TEXTS:
 						break
 
-					date = pid_date_dict[p_index] if p_index in pid_date_dict else ''
-					curr_trans = Transaction(p_index, date)
+					date_name, processed_date = '', ''
+					if p_index in pid_date_dict:
+						date_name, processed_date = pid_date_dict[p_index]
+
+					curr_trans = Transaction(p_index, date=processed_date, og_date=date_name)
 					all_trans[p_index] = curr_trans
 					curr_line_queue = []
 				if 'PN' in line:
@@ -235,7 +223,8 @@ def main():
 						has_role, new_person = result
 						count_no_role += has_role
 						all_people_list.append(new_person)
-						new_person.dates.append(date)
+						new_person.date_name = date_name
+						new_person.processed_date = processed_date
 
 					# reset to new PN
 					curr_PN_lems, curr_PN_words = get_lems_and_words(line, prev_line)
@@ -249,16 +238,19 @@ def main():
 				prev_line = line
 
 	count_no_norm_name = 0
-	no_norm_name_set = set()
+	no_norm_name_set = {}
 	all_unnorm_names, all_norm_names = set(), set()
 
 	with open(PEOPLE_FILE, 'w') as output_file:
 		csv_writer = csv.writer(output_file)
-		csv_writer.writerow(['name', 'normalized name', 'roles', 'profession', 'family', 'p index', 'date'])
-		for person in sorted(all_people_list, key=lambda x: x.name + str(x.dates)):
+		csv_writer.writerow(['name', 'normalized name', 'roles', 'profession', 'family', 'p index', 'date name', 'processed date'])
+		for person in sorted(all_people_list, key=lambda x: x.name + str(x.processed_date)):
 			row = make_csv_row(person)
 			if not row[1]:
-				no_norm_name_set.add(row[0])
+				if row[0] in no_norm_name_set:
+					no_norm_name_set[row[0]] += 1
+				else:
+					no_norm_name_set[row[0]] = 1
 				count_no_norm_name += 1
 			else:
 				all_norm_names.add(row[1])
@@ -278,6 +270,10 @@ def main():
 	print('total number of unique unnormalized names for which normalization was found:', len(all_unnorm_names) - len(no_norm_name_set))
 	print('total number of unique normalized names', len(all_norm_names))
 	print()
+
+	with open('no_normalization_names.txt', 'w') as f:
+		for name in sorted(list(no_norm_name_set.items()), key=lambda x: x[1]):
+			f.write(str(name) + '\n')
 
 	# print(count_pids_without_dates, 'texts without dates?? out of', count_texts, 'total texts')
 
@@ -305,13 +301,6 @@ def main():
 	# 	print(t)
 
 main()
-
-# a thing:
-	# transliteration of a word with '<< >>' doesn't have
-		# corresponding lemmatization
-	# these words look unimportant, generally
-
-
 
 
 

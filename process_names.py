@@ -5,6 +5,8 @@ NAME_FILE = 'name_list.atf'
 def get_norm_name_dict():
 	# uses list of normalized names
 	# returns dict unnormalized : normalized
+		# if 'unkn', not put in dict
+		# if 'not PN', mapped to 'not PN'
 	d = {}
 	with open(NAME_FILE) as f:
 		for line in f:
@@ -16,9 +18,7 @@ def get_norm_name_dict():
 			name, norm = elems
 			name = name.lower()
 
-			if norm == 'not PN':
-				d[name] = 'not PN'
-			elif norm != 'unkn':
+			if norm != 'unkn':
 				d[name] = norm
 	return d
 
@@ -37,7 +37,7 @@ def clean_name(name):
 
 def norm_name(d, unnorm):
 	unnorm = clean_name(unnorm)		# just in case
-	
+
 	unnorm = unnorm.lower()
 
 	replace = dict([
