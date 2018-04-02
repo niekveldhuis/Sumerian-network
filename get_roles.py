@@ -1,13 +1,16 @@
 import csv
+from process_names import get_norm_name_dict, norm_name, clean_name
 
 ORACC_FILES = ['raw-data/'+name for name in ['p001.atf', 'p002.atf', 'p003.atf', 'p004.atf',
 'p005.atf', 'p006.atf', 'p007.atf', 'p008.atf', 'p009.atf', 'p010.atf',
 'p011.atf', 'p012.atf', 'p013.atf', 'p014.atf', 'p015.atf']]
 DREHEM_P_IDS_FILE = 'drehem_p_ids.txt'
-OUTPUT_FILE = 'people.csv'
+PEOPLE_FILE = 'people.csv'
 PID_DATE_FILE = 'pid_to_datedecimal.csv'
 
 NUM_TEXTS = 20000
+
+FAMILY_WORDS = ['dumu', 'dumu-munus', 'dam', 'um-me-da', 'nin₉', 'šeš']
 
 # using keywords to find role of PNs in transactions
 # dictionary from KEYWORD : (meaning, where PN is relative to keyword)
@@ -30,15 +33,28 @@ ROLE_KEYWORDS = {
 	# these cases will not be found by this script.
 
 class Transaction:
-	def __init__(self, p):
+	def __init__(self, p, date=''):
 		self.p_index = p
 		# can add date/place/etc.
 		self.roles = {}
 			# role name: name of person (ex. 'source': 'Turamdatan')
 		self.people = set()
+		self.date = date
 
 	def __str__(self):
 		return 'P' + str(self.p_index) + ': \n\t' + str(self.roles) + '\n\t' + str(self.people)
+
+class Person:
+	def __init__(self):
+		self.family = ''
+		self.professions = set()
+		self.pids = []
+		self.dates = []
+		self.roles = []
+		self.name = None
+
+	def __str__(self):
+		return self.name
 
 def get_drehem_p_ids():
 	p_sets = set()
@@ -63,7 +79,6 @@ def get_next_text(input_file, line, drehem_texts):
 	# gets next text that is from Drehem
 	# and mutates input_file object to be at that line
 	# returns P index of first file found that is from Drehem
-	# currently will break if actually reach end of file.
 	p_index = get_p_index(line)
 	while p_index not in drehem_texts:
 		line = next(input_file)
@@ -79,7 +94,7 @@ def get_next_text(input_file, line, drehem_texts):
 	return p_index
 
 def remove_empty_strings(lst):
-	return [x for x in lst if len(x) > 0]
+	return [x for x in lst if len(x) > 0 and not (x.startswith('<<') or x.endswith('>>'))]
 
 def get_lems_and_words(lem_line, word_line):
 	# lem_line: semicolon-separated list of lemmatizations, starts with '#lem: '
@@ -87,39 +102,37 @@ def get_lems_and_words(lem_line, word_line):
 	# return: (string) list of lemmatizations/words
 	lems = remove_empty_strings(lem_line[6:].split('; '))
 	words = remove_empty_strings(word_line.split(' ')[1:])
-	# if (len(lems) != len(words)):
-	# 	print('word', words)
-	# 	print('lem', lems)
 	return lems, words
 
-def is_bazi(s):
-	return 'ba' in s and 'zi' in s
-
-def process_PN(output_data, word_list, lem_list, p_index, date):
-	name = None
-
-	PN_info = {}
-	PN_info['role'] = []
-	
-	# ignore PNs in lines about dates
-	if lem_list[0] == 'mu[year]':
+def process_PN(first_line_len, word_list, lem_list, trans, norm_name_dict):
+	# first PN in file
+	if not first_line_len:
 		return
 
-	line_length = min(len(word_list), len(lem_list))
+	new_person = Person()
+	new_person.pids.append(trans.p_index)
+	roles = set()
+
 	i = 0
-	while i < line_length:
+	while i < len(word_list):
 		word, lem = word_list[i], lem_list[i]
-		# there is a lemmatization error with 'ba-zi' as a PN. it is not.
-		if lem == 'PN' and not is_bazi(word):
-			if not name:
-				name = word
-			else:
-				# there's another PN in the same line
+		# ignore date
+		if lem == 'mu[year]':
+			break
+		elif lem == 'PN':
+			possible_name = clean_name(word)
+			possible_norm_name = norm_name(norm_name_dict, possible_name)
+			if not new_person.name:
+				if possible_norm_name != 'not PN':
+					new_person.name = possible_name
+					new_person.norm_name = possible_norm_name
+			# elif possible_norm_name and possible_norm_name != 'not PN':
+				# there's another PN
 				# ** this may not be the right way to process this. seems complicated.
-				process_PN(output_data, word_list[i:], lem_list[i:], p_index, date)
-				break
-				# print('another name?', name, word, word_line, lem_line)
-		if word in ROLE_KEYWORDS:
+				# process_PN(output_data, word_list[i:], lem_list[i:], p_index, date)
+				# break
+				# print('another name?', word, word_list, lem_list)
+		elif word in ROLE_KEYWORDS:
 			role_info = ROLE_KEYWORDS[word]
 			role_name, PN_relative = role_info[0], role_info[1]
 
@@ -129,64 +142,71 @@ def process_PN(output_data, word_list, lem_list, p_index, date):
 					# if it is followed by 'ba-ti' or 'ba-an-ti'
 			if len(role_info) == 3:
 				for other_part in role_info[2]:
-					if word_list[i+1] == other_part:
+					if i < len(word_list)-1 and word_list[i+1] == other_part:
 						found_other_part = True
 
 			if found_other_part:
-				PN_info['role'].append(role_name)
-		elif lem != 'PN' and name != None:
-			if word == 'dumu' and i < line_length-1:
-				PN_info['family'] = 'dumu ' + word_list[i+1]
-				i += 1
-			# all words that come after the name in the same line are being treated as possible professions
+				roles.add(role_name)
+
+		elif lem != 'PN' and new_person.name != None:
+			for family_word in FAMILY_WORDS:
+				if word == family_word and i < len(word_list)-1 and lem_list[i+1] == 'PN':
+					possible_name = clean_name(word_list[i+1])
+					possible_norm_name = norm_name(norm_name_dict, possible_name)
+					if possible_norm_name != 'not PN':
+						i += 1
+						if possible_norm_name != None:
+							new_person.family = family_word + ' ' + possible_norm_name
+						else:
+							new_person.family = family_word + ' ' + possible_name
+			# all words that come after the name in the same LINE are being treated as possible professions
 				# with the one that comes first having precedence
 				# and '[' in lemmatization
 					# to remove things like PN, GN, DN
 						# if these things are actually useful, can add them back
-			elif 'profs' not in PN_info and '[' in lem:
-				PN_info['profs'] = lem
+			if i < first_line_len and word not in FAMILY_WORDS and '[' in lem:
+				new_person.professions.add(lem)
+				i = first_line_len - 1 		# each person only has one profession
 
 		i += 1
 
-	# if len(set(PN_info['role'])) > 1:
-	# 	print(PN_info['role'])
-	# 	print(lem_list)
-
-	# 3 times total in all the texts, 'PN' is the last lemma
-	# in the line, but the transliteration line is shorter
-	# than the lemmatization line
-		# ex. text 105224: '2(diš)', 'gin₂',        'ku₃',      'sa₁₀', 'a-ba-dingir-mu-gin₇'
-							# 'n', 'giŋ[unit]', 'kug[metal]', 'sa[pay', 'for]',     'PN'
-		# not sure what it means, but not important, probably.
-	if not name:
+	if not new_person.name:
 		return
 
-	if 'profs' not in PN_info or PN_info['profs'] == 'PN':
-		PN_info['profs'] = ''
-	if 'family' not in PN_info:
-		PN_info['family'] = ''
-	if len(PN_info['role']) == 0:
-		PN_info['role'] = ''
+	trans.people.add(new_person)
+	if len(roles) == 0:
+		# print(new_person, roles, new_person.family, new_person.professions)
+		# print(new_person, lem_list)
+		return 0, new_person
+	new_person.roles.append(roles)
+	return 1, new_person
+
+	# output_data.append([name, PN_info['role'], PN_info['profs'], PN_info['family'], p_index, date])
+
+def lst_to_str(lst):
+	lst = list(lst)    # sometimes it's a set
+	lst = [x for x in lst if len(x) > 0]
+	if len(lst) == 0:
+		return ''
 	else:
-		PN_info['role'] = list(set(PN_info['role']))
+		return lst
 
-	# if PN_info['profs'] and '[' not in PN_info['profs']:
-	# 	print(PN_info['profs'])
-	# 	print(word_list)
-	# 	print('#lem', lem_list)
-
-	output_data.append([name, PN_info['role'], PN_info['profs'], PN_info['family'], p_index, date])
-
+def make_csv_row(person):
+	return person.name, person.norm_name, lst_to_str(person.roles), lst_to_str(person.professions), \
+				person.family, lst_to_str(person.pids), lst_to_str(person.dates)
 
 def main():
 	drehem_texts = get_drehem_p_ids()
 	pid_date_dict = get_pid_dates()
-	all_professions = set()
+	norm_name_dict = get_norm_name_dict()
 
-	output_data = []
 	count_texts = 0
+	count_no_role = 0
 
-	count_pids_without_dates = 0
+	all_people_list = []
+
+	curr_PN_words, curr_PN_lems = [], []
+	first_PN_line_len = None
 
 	for oracc_filename in ORACC_FILES:
 		with open(oracc_filename) as input_file:
@@ -194,6 +214,8 @@ def main():
 			curr_trans = None
 			for line in input_file:
 				line = line.strip()		# remove \n
+				if line.startswith('# '):    # comments
+					continue
 				if line.startswith('&P'):	# new text
 					p_index = get_next_text(input_file, line, drehem_texts)
 					if p_index == None: # reached end of file
@@ -202,26 +224,60 @@ def main():
 					count_texts += 1
 					if count_texts > NUM_TEXTS:
 						break
-					curr_trans = Transaction(p_index)
+
+					date = pid_date_dict[p_index] if p_index in pid_date_dict else ''
+					curr_trans = Transaction(p_index, date)
 					all_trans[p_index] = curr_trans
 					curr_line_queue = []
 				if 'PN' in line:
-					if p_index in pid_date_dict:
-						date = pid_date_dict[p_index]
-						# print(p_index)
-					else:
-						# count_pids_without_dates += 1
-						date = ''
+					result = process_PN(first_PN_line_len, curr_PN_words, curr_PN_lems, curr_trans, norm_name_dict)
+					if result:
+						has_role, new_person = result
+						count_no_role += has_role
+						all_people_list.append(new_person)
+						new_person.dates.append(date)
+
+					# reset to new PN
+					curr_PN_lems, curr_PN_words = get_lems_and_words(line, prev_line)
+					first_PN_line_len = len(curr_PN_lems)
+
+				elif line.startswith('#lem'):
 					lem_list, word_list = get_lems_and_words(line, prev_line)
-					process_PN(output_data, word_list, lem_list, p_index, date)
+					curr_PN_lems.extend(lem_list)
+					curr_PN_words.extend(word_list)
 
 				prev_line = line
 
-	with open(OUTPUT_FILE, 'w') as output_file:
+	count_no_norm_name = 0
+	no_norm_name_set = set()
+	all_unnorm_names, all_norm_names = set(), set()
+
+	with open(PEOPLE_FILE, 'w') as output_file:
 		csv_writer = csv.writer(output_file)
-		csv_writer.writerow(['name', 'role', 'profession', 'family', 'p index', 'date'])
-		for row in sorted(output_data, key=lambda x: x[0]+str(x[-1])):		# sorted alphabetically by name, then date
+		csv_writer.writerow(['name', 'normalized name', 'roles', 'profession', 'family', 'p index', 'date'])
+		for person in sorted(all_people_list, key=lambda x: x.name + str(x.dates)):
+			row = make_csv_row(person)
+			if not row[1]:
+				no_norm_name_set.add(row[0])
+				count_no_norm_name += 1
+			else:
+				all_norm_names.add(row[1])
+			all_unnorm_names.add(row[0])
+
 			csv_writer.writerow(row)
+
+	print()
+	print('fraction of PNs with no normalization', count_no_norm_name / len(all_people_list))
+	print('total number of PNs (rows in people.csv):', len(all_people_list))
+	print()
+
+	print('fraction of unique names with no normalization found', len(no_norm_name_set) / len(all_unnorm_names))
+	print('total number of unique (unnormalized) names:', len(all_unnorm_names))
+	print()
+
+	print('total number of unique unnormalized names for which normalization was found:', len(all_unnorm_names) - len(no_norm_name_set))
+	print('total number of unique normalized names', len(all_norm_names))
+	print()
 
 	# print(count_pids_without_dates, 'texts without dates?? out of', count_texts, 'total texts')
 
