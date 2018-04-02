@@ -1,0 +1,59 @@
+---
+title: "TimelineURAP"
+output: pdf_document
+---
+
+Read in csv with merged nodes
+```{r}
+NodeData <- read.csv('new_nodes_plus_year.csv')
+```
+
+Installing ggplot - not necessary if already installed package 
+```{r}
+install.packages("ggplot2")
+
+```
+
+Loading packages - need to load each time we load R
+```{r}
+library(ggplot2)
+```
+
+
+Save values into Vectors
+maxV corresponds to most recent year
+minV corresponds to the first transaction recorded
+
+```{r}
+idV <- NodeData[["id"]]
+nameV <- NodeData[["name"]]
+maxV <- NodeData[["maxYear"]]
+minV <- NodeData[["minYear"]]
+
+```
+
+
+Prints out whole data graph to pdf:
+1) creates data frame with x-axis as name and y-axis as combination of minV and maxV values
+2) Plots graph with plot labels as year and adds lines through geom_line()
+3) Adds titles and axis labels
+
+```{r}
+pdf(file="plot.pdf", width=400, height = 50)
+df <- data.frame(x=nameV, y=c(minV, maxV))
+p <- ggplot(df, aes(x, y, label = df[['y']])) + geom_point() + geom_line() + geom_label()
+
+p + theme(plot.title = element_text(family = "Helvetica", face = "bold", size = (30)), axis.text.x = element_text(angle = 60, hjust = 1)) + ggtitle("Activity spans") + labs(y="Processed Years", x = "Names")
+
+```
+
+(OPTIONAL) Examining a subset of data by plotting only first 90 points
+
+```{r (Optional) Examining subset of data}
+pdf(file="plotPart.pdf", width=400, height = 50)
+df <- head(data.frame(x=nameV, y=c(minV, maxV)), 90)
+p <- ggplot(df, aes(x, y, label = df[['y']])) + geom_point() + geom_line() + geom_label()
+p + theme(plot.title = element_text(family = "Helvetica", face = "bold", size = (30)), axis.text.x = element_text(angle = 60, hjust = 1)) + ggtitle("Activity spans") + labs(y="Processed Years", x = "Names")
+
+```
+
