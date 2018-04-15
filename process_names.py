@@ -1,6 +1,8 @@
 import re
+import ogsl
 
 NAME_FILE = 'name_list.atf'
+OGSL_DICT = ogsl.make_dict()
 
 def get_norm_name_dict():
 	# uses list of normalized names
@@ -35,6 +37,27 @@ def clean_name(name):
 
 	return name
 
+def lst_to_str(lst):
+	s = ''
+	for sign in lst:
+		s += sign + '-'
+	s = s[:-1]
+	return s
+
+def all_signs(word):
+	signs = word.split('-')
+	all_possible = set()
+	# print(OGSL_DICT)
+	for i, s in enumerate(signs):
+		if s in OGSL_DICT:
+			# print(OGSL_DICT[s])
+			for other_s in OGSL_DICT[s]:
+				new_form = list(signs)
+				new_form[i] = other_s
+				all_possible.add(lst_to_str(new_form))
+	return all_possible
+
+
 def norm_name(d, unnorm):
 	unnorm = clean_name(unnorm)		# just in case
 
@@ -57,8 +80,16 @@ def norm_name(d, unnorm):
 
 	if unnorm in d:
 		return d[unnorm]
+	for other_possible in all_signs(unnorm):
+		if other_possible in d:
+			# print(unnorm, other_possible)
+			return d[other_possible]
 	# print(unnorm)
 	return None
+
+
+
+
 
 
 

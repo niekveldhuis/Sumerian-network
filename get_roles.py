@@ -259,11 +259,11 @@ def main():
 			csv_writer.writerow(row)
 
 	print()
-	print('fraction of PNs with no normalization', count_no_norm_name / len(all_people_list))
+	print('fraction of PNs with normalization', 1 - (count_no_norm_name / len(all_people_list)))
 	print('total number of PNs (rows in people.csv):', len(all_people_list))
 	print()
 
-	print('fraction of unique names with no normalization found', len(no_norm_name_set) / len(all_unnorm_names))
+	print('fraction of unique names with normalization found', 1 - (len(no_norm_name_set) / len(all_unnorm_names)))
 	print('total number of unique (unnormalized) names:', len(all_unnorm_names))
 	print()
 
@@ -271,9 +271,10 @@ def main():
 	print('total number of unique normalized names', len(all_norm_names))
 	print()
 
-	with open('no_normalization_names.txt', 'w') as f:
-		for name in sorted(list(no_norm_name_set.items()), key=lambda x: x[1]):
-			f.write(str(name) + '\n')
+	with open('no_normalization_names_undamaged.txt', 'w') as f:
+		for name in sorted(list(no_norm_name_set.items()), key=lambda x: x[1], reverse=True):
+			if '...' not in name[0]:
+				f.write(name[0] + ', ' + str(name[1]) + '\n')
 
 	# print(count_pids_without_dates, 'texts without dates?? out of', count_texts, 'total texts')
 
