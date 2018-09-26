@@ -6,7 +6,7 @@ ORACC_FILES = ['raw-data/'+name for name in ['p001.atf', 'p002.atf', 'p003.atf',
 'p005.atf', 'p006.atf', 'p007.atf', 'p008.atf', 'p009.atf', 'p010.atf',
 'p011.atf', 'p012.atf', 'p013.atf', 'p014.atf', 'p015.atf']]
 DREHEM_P_IDS_FILE = 'drehem_p_ids.txt'
-PEOPLE_FILE = 'people.csv'
+PEOPLE_FILE = 'wot.csv'
 PID_DATE_FILE = 'pid_to_datedecimal.csv'
 
 NUM_TEXTS = 20000
@@ -49,7 +49,7 @@ class Transaction:
 class Person:
 	def __init__(self):
 		self.family = ''
-		self.professions = ''
+		self.profession = ''
 		self.pid = ''
 		self.roles = ''
 		self.name = None
@@ -177,7 +177,7 @@ def process_PN(first_line_len, word_list, lem_list, trans, norm_name_dict):
 	# output_data.append([name, PN_info['role'], PN_info['profs'], PN_info['family'], p_index, date])
 
 def make_csv_row(person):
-	return person.name, person.norm_name, str(person.roles), person.professions, \
+	return person.name, person.norm_name, str(person.roles), person.profession, \
 				person.family, person.pid, person.date_name, person.processed_date
 
 def main():
