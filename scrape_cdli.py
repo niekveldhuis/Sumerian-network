@@ -2,9 +2,29 @@ import csv
 import codecs
 
 CDLI_FILE = 'cdli_catalogue.csv'
-OUTPUT_FILE = 'drehem_pid_year.csv'
+OUTPUT_PID_DATE_FILE = 'drehem_pid_year.csv'
+OUTPUT_PID_FILE = 'drehem_p_ids.txt'
+INPUT_DREHEM_LIST_FILE = 'query_cat_19_02_12-014312.txt'
 
-def find_drehem():
+# gets list of p ids of texts from Drehem from BTDNS
+# writes the list to output file
+def get_drehem_pids():
+	print('Reading BDTNS file...')
+	pid_set = set()
+	with open(INPUT_DREHEM_LIST_FILE) as f1:
+		for line in f1:
+			line = line.split('\t')
+			if len(line) > 1 and len(line[1]) > 1:
+				pid = line[1][1:-1]    # second column, remove P and \n
+				pid_set.add(pid)
+	with open(OUTPUT_PID_FILE, 'w') as f2:
+		for pid in sorted(list(pid_set)):
+			f2.write(pid + '\n')
+
+	return pid_set
+
+# matches PID (from above function) to dates from CDLI
+def find_drehem(drehem_pid_set):
 	print('Reading CDLI...')
 	with open(CDLI_FILE) as csvfile:
 		col_labels = csvfile.readline().split(',')
@@ -13,16 +33,13 @@ def find_drehem():
 		year_index = col_labels.index('dates_referenced')
 
 		csv_reader = csv.reader(x.replace('\0', '') for x in csvfile) # see check_null_bytes()
-		count = 0
 		pid_year_dict = {}
 		for row in csv_reader:
-			if 'Drehem' in row[location_index]:
+			# print(row[p_id_index])
+			if row[p_id_index] in drehem_pid_set:
 				pid_year_dict[row[p_id_index]] = row[year_index]
-				count += 1
-		print(count, 'texts found from Drehem')
-	# print(p_id_set)
 
-	with open(OUTPUT_FILE, 'w') as output_file:
+	with open(OUTPUT_PID_DATE_FILE, 'w') as output_file:
 		csv_writer = csv.writer(output_file)
 		for text in pid_year_dict.items():
 			csv_writer.writerow(text)
@@ -37,4 +54,5 @@ def check_null_bytes(csvfile):
 			print(x)
 
 # check_null_bytes(open(CDLI_FILE))
-find_drehem()
+# find_drehem()
+find_drehem(get_drehem_pids())
