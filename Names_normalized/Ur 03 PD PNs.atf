@@ -337,6 +337,8 @@
 335	A.AB.BA-ba-ac-ti-ce3		Abumbašti[]PN
 336	A.AB.BA-ba-ac2-ti-e		Abumbašti[]PN
 337	A.AB.BA-ba-ac2-ti-ra		Abumbašti[]PN
+338a	kuara{ki}			Kuʾara[]SN
+338a	kuara2{ki}			Kuʾara[]SN
 338	A.HA{ki}			Kuʾara[]SN
 339	A.HA{ki}-ce3			Kuʾara[]SN
 340	A.HA{ki}-ta			Kuʾara[]SN
@@ -579,6 +581,7 @@
 577	An-ca-an{ki}-na			Anšan[]SN
 578	An-ca-na{ki}			Anšan[]SN
 579	An-ca-na{ki}-ke4		Anšan[]SN
+580a	A2-ge6-il2-la			Aŋeila[]PN
 580	An-na				unkn				6034 possibilities
 581	An-na-bi2-kuc2			Anabinkuš[]PN
 582	An-na-ce3			An[]DN
@@ -644,6 +647,7 @@
 642	Arad2-{d}Nanna-ta		AradNannak[]PN
 643	Aratta{ki}			Aratta[]SN
 644	Asar-lu2-hi			Asarluhi[]DN
+644a	A-a-ca-ta			Ayaša[]PN
 645	BAD3-AN{ki}			BAD₃.AN[]SN
 646	BAD3-i3-li2			Durili[]PN
 647	BAD3.AN.KI.ZI{ki}		BAD₃.AN.KI.ZI[]SN		uncertain; SET 010 o 14 (no copy/photo)
@@ -757,6 +761,7 @@
 755	Ba-zi-ge-en6-ta			Bazigen[]PN
 756	Ba-zi-ge-na-ta			Bazigen[]PN
 757	Ba-zi-ta			Bazig[]PN			= Bazige, Bazigen?
+758a	babila{ki}			Babilim[]GN
 758	Babilim-ta			Babilim[]SN
 759	Babilim2-ce3			Babilim[]SN
 760	Babilim{ki}			Babilim[]SN
@@ -807,6 +812,7 @@
 805	Bi2-da				Bida[]PN
 806	Bi2-da-dun{ki}			Bidadun[]SN
 807	Bi2-du11-i3-sa6			Bidugisag[]PN
+808a	Bi2-bi2				Bibi[]PN
 808	Bi2-i3-bi2-a			Bibiʾa[]PN			uncertain (AAICAB 1/1, Ashm. 1923-420 r 2)
 809	Bi2-ib-ra			Bibra[]PN			< LU2.SU
 810	Bi2-in-zi			Binzi[]PN			< Anšan
@@ -1052,6 +1058,7 @@
 1050	Copy				not PN				formatting
 1051	Cu-AB.BA			Šuʾabi[]PN
 1052	Cu-AB.BA-ta			Šuʾabi[]PN
+1053a	Cu-{d}idim			Šu.AN.BAD[]PN
 1053	Cu-AN.BAD			Šu.AN.BAD[]PN
 1054	Cu-AN.BAD-ta			Šu.AN.BAD[]PN
 1055	Cu-Cu-mu-dar-ce3		ŠuŠumudar[]PN			all in phrase: mu Šu-Šu-mu-dar-še3 (SS 09)
@@ -1362,6 +1369,7 @@
 1360	Da-sal-ib-ri			Dasalibri[]PN			Tasalipri? (Hurrian < Uršu)
 1361	Da-si-il{ki}			Dašil[]SN
 1362	Da-ti				Dati[]PN
+1363	Ta2-di3-ec18-dar[]PN		TaddinEštar[]PN
 1363	Da-tin-ictar			TaddinEštar[]PN
 1364	Da-tin-ictar-me			TaddinEštar[]PN
 1365	Dab2-ru-um{ki}			Dabrum[]SN
@@ -1370,6 +1378,7 @@
 1368	Dah-ca-tal-ta			Tahšatal[]PN
 1369	Dah-i3-li2			Ṭahili[]PN
 1370	Dal-ha-at{ki}			Dalhat[]SN
+1370a	Da-la-a			Dala[]PN
 1371	Dam-gir2-nun-ne2		Damŋirinun[]PN			uncertain; JCS 24, 156 37 o 4: dam Ŋirinun? (copy)
 1372	Dam-ki-na			unkn				ASJ 15 141 19 o 11 (restored, no other exemples; translit only)
 1373	Dam-qu2-um			Damqum[]PN
@@ -1440,6 +1449,7 @@
 1438	Du6-ur2-en-du10			Durendug[]PN			or, Duʾurendug?
 1439	Du6-ur3				Dur[]PN
 1440	Du6-ur3-ce3			Dur[]PN
+1440a	dur-eb-la{ki}			DurEbla[]GN
 1441	Dub-ki-ce-ni			Dupkišeni[]PN			Hurrian (< Gu-ma-ra-ši{ki})
 1442	Dub-la2-mah			Dublamah[]TN
 1443	Dub-la2-mah-ce3			Dublamah[]TN
@@ -1481,6 +1491,7 @@
 1479	E-num2-me-a			EnnumEa[]PN			sandhi for E-num2 + E2-a?
 1480	E-ru-ru				Eruru[]PN
 1481	E-ru-ut{ki}			Erut[]SN
+1482a	E-te-al-pu3-{d}da-gan		EtelpuDagan[]PN
 1482	E-te-el-KA-{d}Cul-gi		EtelpuŠulgi[]PN
 1483	E-te-el2-pu3-{d}Da-gan		EtelpuDagan[]PN
 1484	E-te-el2-pu3-{d}Da-gan-ce3	EtelpuDagan[]PN
@@ -1533,6 +1544,7 @@
 1531	E2-mar-za{ki}			Emarza[]SN
 1532	E2-mar-za{ki}-ta		Emarza[]SN
 1533	E2-nig2-IL2-nanna		Eniŋerimnudi[]PN		rdg so photo (CDLJ 2007: 1 9 r 15)
+1534a	E-pi-ri				Epiri[]PN
 1534	E2-pi-ri			Epiri[]PN
 1535	E2-sag-da-na			Esaŋdana[]SN
 1536	E2-sag-da-na-ka			Esaŋdana[]SN
@@ -1562,6 +1574,7 @@
 1560	Eb-la				Ebla[]SN
 1561	Eb-la{ki}			Ebla[]SN
 1562	Eb-la{ki}-me-ec2		Ebla[]SN
+1563a	eš18-dar-nu-id			Eštarnuʾʾid[]PN
 1563	Ec-tar2-nu-ri			Eštarnuri[]PN
 1564	Ec18-tar2-DINGIR-cu		Eštarilšu[]PN
 1565	Ec18-tar2-al-cu			Eštarilšu[]PN
@@ -1927,6 +1940,7 @@
 1925	Ha-ac-ma-nu-um			Hašmanum[]PN			Martu
 1926	Ha-ac-ti-a			Haštiʾa[]PN
 1927	Ha-ad-ha-ad			Hadhad[]PN
+1928a	Ha-za-ab-tum			Hanzabtum[]PN			typo
 1928	Ha-an--za-ab-tum		Hanzabtum[]PN			typo
 1929	Ha-an-DU			Handu[]PN			= Ha-an-du-u2 at Garshana?
 1930	Ha-an-za-ab-tum			Hanzabtum[]PN
@@ -1946,6 +1960,7 @@
 1944	Ha-ba-an-zi-zi			Habanzigzig[]PN			may not be Sum.
 1945	Ha-ba-ba			Hababa[]PN			hypo?
 1946	Ha-ba-ba-tum			Hababatum[]PN
+1946a	Ha-ba-mu			Habamu[]PN
 1947	Ha-ba-lu5-ge2			Habaluge[]PN
 1948	Ha-ba-tum-li-ip-du		Habatumlipdum[]PN		AS 07, 08
 1949	Ha-ba-tum-li-ip-tum		Habatumlipdum[]PN		AS 09
@@ -2219,6 +2234,7 @@
 2217	I-la-ca-ma-ar			Ilašamar[]PN
 2218	I-la-ku				Illaku[]PN			< alāku?
 2219	I-me-er				Imer[]PN
+2220a	I-mi-id-eš18-dar		ImidEštar[]PN
 2220	I-mi-DINGIR			Imidili[]PN
 2221	I-mi-di-DINGIR			Imidili[]PN
 2222	I-mi-id-DINGIR			Imidili[]PN
@@ -2323,6 +2339,7 @@
 2321	I3-da-ga			Idaga[]PN
 2322	I3-dur-DINGIR			Iturili[]PN
 2323	I3-gi				Igin[]PN			hypo < DN-i3-gi(-in)? (JSOR 13 177 38 r 1; possibly PDT 2 0903 o 6)
+2323	I3-kal-la[]PN			Ikala[]PN
 2324	I3-la-bu-i3-ga-du		Ilabuʾigadu[]PN			MVN 11 186 o 6, 8, r 6 (SH 45)
 2325	I3-la-lum			Ilallum[]PN			all AS
 2326	I3-la-lum-ta			Ilallum[]PN
@@ -2373,6 +2390,8 @@
 2371	I3-sa6-sa6			Isagsag[]PN			probly Isassag
 2372	I3-sa6-sa6-ga			Isagsag[]PN			JCS 32 171 1 o 2 (scribe put gen. in wrong place; copy)
 2373	I3-si-{ki}-ce3			Isin[]SN
+2373a	I3-si-in{ki}-še3		Isin[]GN
+2373a	I3-si-in{ki}			Isin[]GN
 2374	I3-syur-{d}Suen-ta		IṣṣurSuʾen[]PN
 2375	I3-ti-Er3-ra			IddinEra[]PN
 2376	I3-tu-a				I₃.TU.a[]PN			Ituʾa/Ituda?
@@ -2635,6 +2654,8 @@
 2633	Ka-zal-lu{ki}-ka-ke4		Kazallu[]SN
 2634	Ka-zal-lu{ki}-ta		Kazallu[]SN
 2635	Ka5{a}				Ka[]PN				error for Kaŋu?; CBCY 3, NBC 09681 seal 2, OrSP 47-49 058 r 5
+2636a	Ka5-a-mu			Kaŋu[]PN
+2636a	Ka5-a-mu-ta			Kaŋu[]PN
 2636	Ka5{a}-mu			Kaŋu[]PN
 2637	Ka5{a}-mu-ta			Kaŋu[]PN
 2638	Kac-pu-ca			Kaspuša[]PN
@@ -2659,6 +2680,7 @@
 2657	Kar-zi-da{ki}-ce3		Karzida[]SN
 2658	Kar-zi-da{ki}-ta		Karzida[]SN
 2659	Kar2-ra-har{ki}			Karahar[]SN
+2660a	karx(GAN2)-har{ki}		Karahar[]GN
 2660	Kara2-HAR			Karahar[]SN
 2661	Kara2-HAR-ra{ki}		Karahar[]SN
 2662	Kara2-HAR-{ki}			Karahar[]SN
@@ -2681,6 +2703,7 @@
 2679	Ki-ag2-di-ku5			Kiʾaŋdikud[]PN			uncertain; possibly Kiʾaŋ dikud (PDT 1 433 o 2; no copy/photo)
 2680	Ki-da-ni			Kidani[]PN
 2681	Ki-ec{ki}			Kiʾesa[]SN			typo; Princeton 2 122 o 6 (EŠ for EŠ3; photo)
+2682	ki-en-gi[]GN			Kiʾengir[]GN
 2682	Ki-en-girX			Kiʾengir[]GN
 2683	Ki-es3{ki}			Kiʾesa[]SN
 2684	Ki-ic-ga-ti{ki}			Kišgati[]SN
@@ -2989,6 +3012,8 @@
 2987	Lu2-Sukkal-an-ka-ta		LusukkalAnakak[]PN
 2988	Lu2-Sukkal-an-na		LusukkalAnakak[]PN
 2989	Lu2-URU×KAR2{ki}		LuʾUrubak[]SN
+2989a	Lu2-uru11{ki}			LuʾUrub[]PN
+2989a	Lu2-uru11{ki}-ta		LuʾUrub[]PN
 2990	Lu2-a2-nu-um			Luʾanum[]PN			uncertain
 2991	Lu2-a2-zi-da			Luʾazidak[]PN
 2992	Lu2-ama-na			Luʾamanak[]PN
@@ -3033,6 +3058,7 @@
 3031	Lu2-igi-sa6-sa6			Luʾigisagsag[]PN
 3032	Lu2-kac-mu			Lukašŋu[]PN
 3033	Lu2-kac-mu-ta			Lukašŋu[]PN
+3034a	Lu2-kal-ga			Lukalaga[]PN
 3034	Lu2-kal-la			Lukala[]PN			or, Lukalag?
 3035	Lu2-kal-la-ta			Lukala[]PN
 3036	Lu2-kiri3-zal			Lukirizal[]PN
@@ -3168,6 +3194,7 @@
 3166	Lugal-HAR-su-su			Lugal.HI×AŠ₂.su.su[]PN		SET 108 r 13 (copy)
 3167	Lugal-KU-ta			Lugal.KU[]PN			CT 32 45 BM 103428 r 8 (copy)
 3168	Lugal-NI9-da			Lugal.U.UD.da[]PN		Princeton 2 171 o 5 (photo)
+3169a	Lugal-nam2-mah		Lugalšutur[]PN
 3169	Lugal-TUG2.MAH			Lugalšutur[]PN			'King is a šutur-garment' or 'King (having) a šutur-garment'?
 3170	Lugal-TUG2.MAH-ta		Lugalšutur[]PN
 3171	Lugal-TUR-ce3			Lugalbandaše[]PN
@@ -3493,6 +3520,7 @@
 3491	Mar2-da{ki}-ka-ce3		Marad[]SN
 3492	Mar2-da{ki}-ta			Marad[]SN
 3493	Mar2-ma-an{ki}			Marman[]SN
+3494a	Marad2{ki}			Marad[]GN
 3494	Marda2				Marad[]SN			typo; entries have Marda2 for Marad2
 3495	Marda2{ki}			Marad[]SN
 3496	Marda2{ki}-ka			Marad[]SN
@@ -3771,8 +3799,10 @@
 3769	Nig2-{d}Ba-u2			NiŋBaʾuk[]PN
 3770	Nig2-{d}Ba-u2-gen7-ta		NiŋBaʾukgin[]PN
 3771	Nig2-{d}Ba-u2-ke4		NiŋBaʾuk[]PN
+3771	Nigar{gar}-ki-du10[]PN		Nigarkidug[]PN
 3772	Nim-zi2-um{ki}			Nimṣiʾum[]SN
 3773	Nimgir-DI.NE			Niŋirdide[]PN			uncertain
+3773a	Nig2-erim2-ga-ru-ga		Niŋerimgaruga[]PN
 3774	Nimgir-inim-ge-na		Niŋirinimginak[]PN
 3775	Nin-AN.AN.NE.GUL		unkn				title/profession?; Nisaba 15/2 1143 r 6 (no copy/photo)
 3776	Nin-IG-DUL3			Nin.IG.SAG@g[]PN		UDT 097 r 6 (copy/photo)
@@ -3816,6 +3846,7 @@
 3814	Nu-hi-DINGIR-ta			Nuhilum[]PN
 3815	Nu-hi-lum			Nuhilum[]PN
 3816	Nu-hi-lum-ta			Nuhilum[]PN
+3817a	Nu-i-da				Nuʾida[]PN
 3817	Nu-i3-da			Nuʾida[]PN
 3818	Nu-i3-da-ce3			Nuʾida[]PN
 3819	Nu-i3-da-ke4-ne-ce3		Nuʾida[]PN
@@ -4236,6 +4267,8 @@
 4234	Ta2-ba-da-ra-ah			Tabadarah[]PN
 4235	Ta2-bur-hat-tum			Taburhaṭṭum[]PN
 4236	Ta2-ci-il{ki}-me-ec2		Dašil[]SN
+4237a	Ta2-din-eš18-dar-še3		TaddinEštar[]PN
+4237a	Ta2-din-ec18-dar		TaddinEštar[]PN
 4237	Ta2-di3-Ec4-tar2		TaddinEštar[]PN			Eštar: likely most or all wr. with EŠ18 not EŠ4
 4238	Ta2-di3-Ec4-tar2-ce3		TaddinEštar[]PN
 4239	Ta2-di3-KI-ZA			Taddinkiza[]PN			uncertain
@@ -4288,6 +4321,7 @@
 4286	Te-zi2-in-{d}Ma-ma		TeṣenMama[]PN
 4287	Te9-zi2-in-Ma-ma		TeṣenMama[]PN
 4288	Ti-a-bu-um			Tiʾabum[]PN
+4288a	Ti-ca-{d}da-hi		Tišandahi[]PN
 4289	Ti-ca-an-da-hi			Tišandahi[]PN
 4290	Ti-ca-{d}Da-gan			Tišandahi[]PN
 4291	Ti-id-				Tidnum[]GN			part of SS 04-06 year-name written over 2 lines
@@ -4302,6 +4336,8 @@
 4300	Ti-ti-in			Titin[]WN			BPOA 7 2488 o 1: 1 udu gu2 id2 Ti-ti-in (no copy/photo)
 4301	Tu-da-ri			Tudari[]PN
 4302	Tu-du-bi-di-nu			Tudubidinu[]PN
+4303a	Tu-li-id-{d}utu-ci		TulidŠamši[]PN
+4303a	Tu-li2-id-{d}utu-ci		TulidŠamši[]PN
 4303	Tu-li-id-{d}UTU{ci}		TulidŠamši[]PN
 4304	Tu-li2-a-ta			Tu.NI[]PN			SACT 1 104 o 4 (copy/photo)
 4305	Tu-li2-id-{d}UTU		TulidŠamši[]PN
@@ -4331,6 +4367,7 @@
 4329	Tum-al-ta			Tummal[]TN
 4330	Tum-al{ki}			Tummal[]TN
 4331	Tum-am-al{ki}			Tummal[]TN
+4331a	tum-al				Tummal[]TN
 4332	Tum-ma-al			Tummal[]TN
 4333	Tum-ma-al-ce3			Tummal[]TN
 4334	Tum-ma-al-la			Tummal[]TN
@@ -4482,6 +4519,7 @@
 4480	UN-sa6-ga			UN.sag₉.ga[]PN
 4481	UN-sa6-ga-ta			UN.sag₉.ga[]PN
 4482	UR2xU2-mul			UR₂×U₂.mul[]PN			BPOA 6 0868 o 1: 1 udu UR₂×U₂-mul?# (no copy/photo)
+4483a	Urua{ki}			Urua[]GN
 4483	URU×A				Urua[]SN
 4484	URUxA{ki}			Urua[]SN
 4485	URUxA{ki}-me-ec2		Urua[]SN
@@ -4541,6 +4579,7 @@
 4539	Ur-Al-la-ta			UrAllak[]PN
 4540	Ur-Ba-gara2			UrBagarak[]PN
 4541	Ur-Ba-gara2-ta			UrBagarak[]PN
+4541a	Ur-{d}gilgamesx(BIL3.GA.MES)	UrBilgameš[]PN
 4542	Ur-DUN				Urduna[]PN			uncertain ('man who digs'?)
 4543	Ur-DUN-na			Urduna[]PN
 4544	Ur-DUN-ta			Urduna[]PN
@@ -4884,6 +4923,7 @@
 4882	Ur-{d}Nanna-ta			UrNannak[]PN
 4883	Ur-{d}Nin-AB			Ur.{d}Nin.AB[]PN		OrSP 05 54 18 Wengler 26 o 8 (no copy/photo)
 4884	Ur-{d}Nin-EZEMxX		Ur.{d}Nin.EZEM×X[]PN		UDT 091 o iii 4' (copy)
+4885a	ur-{d}nin-mar{ki}		Ur.{d}Nin.MAR.KI[]PN
 4885	Ur-{d}Nin-MAR.KI		Ur.{d}Nin.MAR.KI[]PN
 4886	Ur-{d}Nin-MAR.KI-ka		Ur.{d}Nin.MAR.KI[]PN
 4887	Ur-{d}Nin-MAR.KIi-ka		Ur.{d}Nin.MAR.KI[]PN
@@ -5002,6 +5042,7 @@
 5000	Uri5{ki}-ta			Urim[]SN
 5001	Uri5{ki}:ma			Urim[]SN
 5002	Uri5{ki}ma-ke4			Urim[]SN
+5003a	u₃-zi-nu-ri			Uzinuri[]PN
 5003	Uru-na				Irinak[]PN			uncertain (hypo?)
 5004	Uru-ni-ba-ag2			Irinebaʾaŋ[]PN
 5005	Uru-sag-rig7			Irisaŋrig[]SN
@@ -5716,6 +5757,7 @@
 5715	{d}Na-na-tum-ma			Nanatum[]DN
 5716	{d}Na-ra-am-{d}Suen		NaramSuʾen[]RN
 5717	{d}Nance			Nanše[]DN
+5718a	{d}nance-GIR2@g-gal		{d}Nanše.GIR₂@g.gal[]DN
 5718	{d}Nance-ad2-gal		{d}Nanše.GIR₂@g.gal[]PN		Nanšeʾušumgal?; KWU § 21 (GIR₂@g), 86 (MUN), 89 (UŠUMₓ)
 5719	{d}Nance-ad2-gal-ta		{d}Nanše.GIR₂@g.gal[]PN
 5720	{d}Nance-ad2-gal2		{d}Nanše.GIR₂@g.gal[]PN		typo; MVN 05 100 o 3 (GAL2 for GAL; photo)
@@ -5737,6 +5779,7 @@
 5736	{d}Nanna-dalla			Nannadalla[]PN
 5737	{d}Nanna-e-mu-ri-na-ba-cu-ac	Nanna[]DN			uncertain; UDT 100 o 3 (copy); describing event when IS became king?
 5738	{d}Nanna-he2-gal2		Nannaheŋal[]PN
+5738a	{d}Nanna-GIR2@g-gal		Nannaulgal[]PN
 5739	{d}Nanna-i3-gi			Nannaʾigin[]PN
 5740	{d}Nanna-i3-gi-in		Nannaʾigin[]PN
 5741	{d}Nanna-i3-gi-ta		Nannaʾigin[]PN
@@ -5796,6 +5839,7 @@
 5795	{d}Nin-MAR.KI			{d}Nin.MAR.KI[]DN
 5796	{d}Nin-MAR.KI-ka		{d}Nin.MAR.KI[]DN
 5797	{d}Nin-Nibru{ki}		NinNibruk[]DN
+5797a	{d}nin-nigar{gar}		Ninnigar
 5798	{d}Nin-PA			Ninpaʾe[]DN			uncertain; TAD 49 o 10: 1 sila4 {d}Nin-pa-U[D?.DU?] (copy/so photo)
 5799	{d}Nin-URU-a-mu-DU		Niniriʾamukur[]DN		uncertain; BPOA 6 0111 o ii 16 (no copy/photo); PDT 2 0797 o 20 (no copy/photo)
 5800	{d}Nin-URU-a-mu-da-ku5-ta	{d}Nin.iri.a.mu.da.TAR[]DN	= Niniriʾamukur?; SET 096 o ii 19 (KU5 for KU4?; no copy/photo)
@@ -5919,6 +5963,7 @@
 5918	{d}Nin-sun2-ka-ce3		Ninsumunak[]DN
 5919	{d}Nin-sun2-ke4			Ninsumunak[]DN
 5920	{d}Nin-ti			Ninti[]DN			uncertain
+5921	{d}Nin-ti2-ug5-ga		Nintiluga[]DN
 5921	{d}Nin-ti-ug5-ga		Nintiluga[]DN
 5922	{d}Nin-tin-ug5-ga		Nintiluga[]DN
 5923	{d}Nin-tin-ug5-ga-ce3		Nintiluga[]DN
