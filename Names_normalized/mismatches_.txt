@@ -1,0 +1,1112 @@
+1	dingir-{d}šara₂[]PN	DiŋirŠara[]PN
+1	sagi-bi[]PN	    Sagibi[]PN
+1	ku-zu-zu[]PN	Kuzuzu[]PN
+1	bi₂-id-du₂[]PN	Biddu[]PN
+1	lu₂-inim-gi-na[]PN	Luʾinimgina
+1	lugal-KA[]PN		FIXED
+1	gir₁₃-geš{ki}-ke₄-ne[]GN	Girŋeš[]SN
+1	tur-ra-am-i₃-li₂[]PN		Turamili[]PN
+1	ba-aš-ti[]PN			Bašti[]PN
+1	dingir-{d}nanna-ma-ba[]PN	DiŋirNannamaba[]PN
+1	gu-ni-na[]PN			Gunina[]SN
+1	geš-zu-di-ga[]PN		FIXED
+1	i-me-er₃[]PN			Imer[]PN
+1	i-gu₂-dingir[]PN		Iguʾili
+1	eš₁₈-dar-um-mi-še₃[]PN		Eštarummi[]PN
+1	am-ne-zu[]PN			Amnezu[]PN
+1	ti-ki-na-ri[]PN			Tikinari[]PN
+1	lugal-nar[]PN			Lugalnar[]PN
+1	la₂-i₃[]PN			FIXED
+1	|BAD₃.AN|{ki}-ke₄-ne[]GN	BAD₃.AN[]GN
+1	lugal-erin₂[]PN			Lugalerin[]PN
+1	lugal-ku₃-še₃[]PN		Lugalkug[]PN
+1	hur-sag-kalam-ma[]TN		Hursaŋkalamak[]TN
+1	{d}nin-hi-li-su₃[]PN		Ninhilisu[]DN
+1	nu-ri-lugal[]PN			Nurilugal[]PN
+1	hu-hu-um-ti[]PN			Huhumti[]PN
+1	e₂-ge₆-par₄-ra[]TN		FIXED
+1	tal-muš-ša{ki}[]GN		Talmuš[]SN
+1	ki-gam-dingir[]PN		Kigamdiŋir[]PN
+1	e-te-il-pi-{d}da-gan-še₃[]PN	EtelpuDagan[]PN
+1	šu-zi₃-mu-dar-še₃[]PN		FIXED
+1	nig₂-kal-la[]PN			Niŋkala[]PN
+1	lu₂-e₂[]PN			Luʾea[]PN
+1	ma-an-ki-{d}šul-gi[]PN		MannumkiŠulgi[]PN
+1	a-ab-u₅-un[]PN			Aʾabuʾun
+1	lu₂-GIN₂[]PN			Lu₂.GIN₂[]PN
+1	ur-{d}kal-kal[]PN		UrKalkal[]PN
+1	{d}nin-ga₂-gi₄[]PN
+1	en-igi-ni-ib₂-zu[]PN
+1	bar-bar-re[]PN
+1	la-ma-ša-ni[]PN
+1	lugal-siskur[]PN
+1	er₃-su₃-a[]PN
+1	su-su-na-tum[]PN
+1	i-bu-um[]PN
+1	lu₂-ku₃-ta[]PN
+1	{d}en-lil₂-AB[]PN
+1	lu₂-zabala₄{ki}[]PN
+1	ma-an-nu-um-i₃-li₂[]PN
+1	a-a-mu-sag[]PN
+1	ba-su-GAN₂[]PN
+1	šeš-ri₂-ba-a[]PN
+1	uš-gi[]PN
+1	ha-DU[]PN
+1	zi-ga-ze-na-a[]PN
+1	{d}nin-gurdub₂-a[]DN
+1	{d}be-la-at-{d}nim-ma[]PN
+1	a-hu-nu-ta[]PN
+1	uri₅{ki}-ki-mu[]GN
+1	iš-lu-il[]PN
+1	i₃-si{ki}-še₃[]GN
+1	ma-lu-lu[]PN
+1	u₄-lam-KU-še₃[]PN
+1	ur-{d}nin-bad₃[]PN
+1	za-na-na[]PN
+1	sa₁₂-rig₇{ki}[]GN
+1	DIŠ[]PN
+1	uru₁₁{ki}-ta[]GN
+1	ih-ta-na-su₂-nu-ut[]PN
+1	{d}dumu-zi-an-na[]PN
+1	geme₂-tur[]PN
+1	er₃-{d}amar-{d}suen[]PN
+1	uš-gi-ta[]PN
+1	AN-geš[]PN
+1	muš-da-nu-um[]PN
+1	ša₃-gul-lum[]PN
+1	ki-KA-bar-KU[]PN
+1	lu-ma-nu-um[]PN
+1	{d}šul-gi-{d}utu-ši[]PN
+1	ur-nigar{gar}-ka-ta[]PN
+1	{d}nin-mar{ki}-ka-še₃[]PN
+1	ur-su[]PN
+1	{d}i-bi-{d}suen[]PN
+1	eš₁₈-dar-al-su₂[]PN
+1	ur-{d}nin-ti₂-ug₅-ga[]PN
+1	nu-ur₂-{d}suen-ka[]PN
+1	{d}šara₂-a-zi[]PN
+1	lugal-tur-tur[]PN
+1	i₃-ku-pi-še₃[]PN
+1	i₃-li₂-uz-ra-ni-ta[]PN
+1	ARAD₂-tur[]PN
+1	dingir-su₂-lagab-me-tur[]PN
+1	gir₂-lu₂[]PN
+1	u₂-še₃-i₃-li₂[]PN
+1	ba-al-zum[]PN
+1	i₃-si-in-na{ki}[]GN
+1	lugal-ra-ni[]PN
+1	hi-lum-ma[]PN
+1	{d}e₂-gur₈-ra[]PN
+1	{d}gur₈-gur₈[]PN
+1	{d}šu-nir-ra-še₃[]PN
+1	nig₂-šu-ba-ba[]PN
+1	dingir-ik-sur₂[]PN
+1	aš-ri₂-da-ta[]PN
+1	id-ni-{d}suen-ta[]PN
+1	ba-zi-kal-la[]PN
+1	dingir-i₃-li₂[]PN
+1	i-bi-la-i₃-lum[]PN
+1	ša-al-ha-a[]PN
+1	ša-bu-lu-lum[]PN
+1	ze₂-pi[]PN
+1	a-mun-ki-še₃[]PN
+1	nimgir-gal[]PN
+1	ga₂-kam-še₃[]PN
+1	su-su-mu[]PN
+1	ša-bar-ba-la-az{ki}[]GN
+1	uš-šu-mu-um[]PN
+1	šu-la-ma-ta[]PN
+1	nig₂-um-ma[]PN
+1	hu-hal-hal-ur-ta[]PN
+1	ti-ze₂-ma-ma[]PN
+1	a-a-ša[]PN
+1	ri-mu[]PN
+1	ar-ši-ku[]PN
+1	ki-siki-{d}nin-na-zu[]PN
+1	{d}igi-za-gin₃[]PN
+1	an-ne₂-ba[]PN
+1	ki-gu-la[]PN
+1	ab-e₃-še₃[]PN
+1	i-šar-li-i[]PN
+1	lugal-unu{ki}-ga[]PN
+1	hu-uh-uh[]PN
+1	si-la₂-mah[]PN
+1	ku-um-da-nu-um[]PN
+1	{d}a-ma-ga[]PN
+1	a-pi₄-sal₄{ki}[]GN
+1	an-ki-lu₂-lulim[]PN
+1	i-bi₂-id-dingir[]PN
+1	e-te-il-pu₃-{d}šul-gi[]PN
+1	{d}nu-muš-da-an-dul₃[]PN
+1	en-ba-mu[]PN
+1	en-nam-šita₄-{d}šul-gi-ra-ke₄-ba-gub-ba-še₃[]PN
+1	hu-ur₅{ki}[]GN
+1	{d}be-la-at-ter-ra-ba-an[]PN
+1	ha-ma-ma[]PN
+1	er₃-hul₃-la[]PN
+1	ba-zu[]PN
+1	lu₂-ki-maš{ki}[]PN
+1	u₂-ur₃-a-ne-ne-še₃[]PN
+1	na-ga[]PN
+1	a-wi-te-el₄[]PN
+1	geme₂-{d}x[]PN
+1	bar-dam[]PN
+1	i₃-li₂-me-šum[]PN
+1	na-gi-id-dingir[]PN
+1	an-da-ga[]PN
+1	lu₂-u₂-an-dul₃-ta[]PN
+1	lu₂-{d}nin-gir₁₆-da[]PN
+1	gi₄-ha-lum[]PN
+1	gir-dub₂-dub₂[]PN
+1	eb-la-ta-gu₂[]PN
+1	gu-uh₂-zi-ga{ki}[]GN
+1	eš₁₈-dar-dan[]PN
+1	da-PA[]PN
+1	gar₃-i₃-li₂-ta[]PN
+1	ab-ba-tab[]PN
+1	wa-qar-{d}šu-{d}suen-ba-za[]PN
+1	a-gu₃-bi[]PN
+1	lu₂-i₃-li₂-an-dul₃[]PN
+1	gi₄-ne-dam[]PN
+1	kaskal{ki}[]GN
+1	unu{ki}-ka[]GN
+1	ur-mah-dar-a[]PN
+1	en-mah-an-an[]PN
+1	BI-ta[]PN
+1	du₆-gu-la[]PN
+1	lil₂-lil₂-ri[]PN
+1	ša₃-ri₂-zu[]PN
+1	UŠ-a-a[]PN
+1	nu-ur₂-gi-li₂-ta[]PN
+1	ab-zu-{d}inanna[]PN
+1	du-nu-mu[]PN
+1	e₂-u₃-e[]PN
+1	er₃-šum-ti-dingir[]PN
+1	i₃-li₂-gi-ne₂[]PN
+1	gi-nu-dingir[]PN
+1	igi-lugal-še₃[]PN
+1	na-bi-um-{d}en-lil₂[]PN
+1	eš₃-gi-a[]PN
+1	ma-da-mu-gi-in-ta[]PN
+1	ša-gu-du{ki}[]GN
+1	da-ni-li₂-ta[]PN
+1	amar-zi-mu[]PN
+1	ensi₂-ka-bi[]PN
+1	{d}gilgamesₓ(|BIL₃.GA.MES|)-ta[]DN
+1	nigar{gar}-ki-du₁₀-ta[]PN
+1	ha-bu-ri₂-tum-ma[]PN
+1	giri₃-da-a[]PN
+1	ur-{geš}x[]PN
+1	lu₂-tum-ma-al[]PN
+1	sa-dur₂-ha-du[]PN
+1	geš-gar₃-tab[]PN
+1	iš-me-{d}ištaran[]PN
+1	du₆-ga-še₃[]PN
+1	šu-KID-a[]PN
+1	gu-su-lum-še₃[]PN
+1	zu-ru-ki[]PN
+1	dam-ga-na[]PN
+1	a₂-sa₆-ga[]PN
+1	u₃-hu[]PN
+1	še-ilₓ(KAR₂)-ha[]PN
+1	ha-ri-iš-hu-un[]PN
+1	in-ti[]PN
+1	na-na-ma[]PN
+1	i₃-li₂-iš-ba-ba[]PN
+1	li-im-ni-li-ik-hi-li-ik[]PN
+1	gu₂-li-i₃-sa₆[]PN
+1	ši-eš₁₈-dar[]PN
+1	šuruppak{ki}-ka[]GN
+1	za-tum{ki}[]GN
+1	a₂-{d}inanna[]PN
+1	lugal-geš-munu₄[]PN
+1	lugal-huš[]PN
+1	ša-da-zi[]PN
+1	za-ab-sa₃-li{ki}[]GN
+1	lugal-kal-ga[]PN
+1	nu-ta-zi-i₃[]PN
+1	šu-hal-un-du[]PN
+1	šu-ku-uk[]PN
+1	me-ši-ad[]PN
+1	{d}šul-gi-ad-mu[]PN
+1	i-zi-na-sag₁₀[]PN
+1	ia₃-ab-ra{ki}[]GN
+1	KU-ib-si-na-at[]PN
+1	da-a-zi[]PN
+1	e-ba-tal[]PN
+1	im-li-ik-e₂-a[]PN
+1	sipa-si-ni[]PN
+1	li-bur-ne₂-mid[]PN
+1	nita-eb[]PN
+1	a-a-{d}nanna-ar-kal[]PN
+1	gu-ba-ru-um[]PN
+1	{d}utu-GIR₂@g-gal-e[]PN
+1	hi-lum[]PN
+1	ni-gar₃-{d}šu-{d}suen[]PN
+1	a-hi-we-er-ta[]PN
+1	TUM{ki}-še₃[]GN
+1	e₂-a-nu-uh₂-ši-še₃[]PN
+1	{d}be-la-at-dar-e₂-ba-an[]PN
+1	nig₂-{d}iš-ha-ra[]PN
+1	tir-gu[]PN
+1	eš₁₈-dar-i₃-li₂-šu[]PN
+1	me-nigar{gar}[]PN
+1	ga-la-a[]PN
+1	ar-ra-ap-hu-um{ki}[]GN
+1	mu₆-ha-a[]PN
+1	babila₂-ta[]GN
+1	u₃-ta-su-ga[]PN
+1	lu₂-sag-da[]PN
+1	mug-na-lum[]PN
+1	dab{ki}[]GN
+1	šar-ru-um{ki}-ma[]GN
+1	ba-ra-ŠIM-ne[]PN
+1	gu₂-ku-uz[]PN
+1	nin-tur-tur-še₃[]PN
+1	ma-an-num₂-ki-{d}šul-gi-ra-ta[]PN
+1	lugal-{d}suen[]PN
+1	šu-iš-gar₃[]PN
+1	{d}mi-šar[]DN
+1	lugal-NE-ub[]PN
+1	za-ab-ru-in[]PN
+1	iš-du-ki-in[]PN
+1	{d}lamma-e₂[]DN
+1	en-nun-ne₂-{d}amar-{d}suen-ki-ag₂[]PN
+1	ni-ušur₃{ki}[]GN
+1	gu₂-lu-ub₂[]PN
+1	ugnimₓ(|KI.LU.ŠE₃|)-bu-hu-ub-ni{ki}-ta[]GN
+1	ur-nigar{gar}-ka[]PN
+1	{d}šul-gi-ha-zi-ir[]PN
+1	gun₄-na[]PN
+1	u₂-du-ru[]PN
+1	ur-nigar{gar}-me[]PN
+1	ur-a-ka-sahar[]PN
+1	lu₂-gi-gun₄{ki}[]PN
+1	{d}utu-ba-an-e₃[]PN
+1	er₃-{d}suen[]PN
+1	ab-ba-ti[]PN
+1	hu-un-ha-al-bi-id[]PN
+1	a-wa-an[]PN
+1	zi-la-a-ta[]PN
+1	u₄-sag₁₀[]PN
+1	lum-za-tur[]PN
+1	a-gu-ma-ri[]PN
+1	la-diš-ip-ta[]PN
+1	{d}gu₂-la₂[]PN
+1	ku-lu-su-tum[]PN
+1	še-še-il{ki}[]GN
+1	i-ib-ni-a[]PN
+1	gu-u₂-da-a[]PN
+1	e-ta-il-pu₃-{d}da-gan-še₃[]PN
+1	be-li₂[]PN
+1	i-za-re-um[]PN
+1	e-bi₂-še-hu[]PN
+1	na-hi-bu-um[]PN
+1	me-er-ti-um[]PN
+1	ba-la-nu-um[]PN
+1	pi-e-ru-um[]PN
+1	i-la-an-ti-da[]PN
+1	u₃-ša-ti-bu[]PN
+1	ka-zi-li[]PN
+1	{d}šara₂-ka[]TN
+1	lu₂[]PN
+1	nir-in-da-gal₂[]PN
+1	zi-nu-gi[]PN
+1	zu-hu-ut[]PN
+1	ga-la-tum{ki}-me-eš₂[]GN
+1	ma-da{ki}-še₃[]GN
+1	šu-pa-e₃[]PN
+1	i-din-eš₁₈-dar[]PN
+1	za₃-bi-la₂[]PN
+1	ha-ra-šum{ki}[]GN
+1	si-mu-si-ru-um-ru-um{ki}[]GN
+1	a-ba-al-la[]PN
+1	az-bu[]PN
+1	i-ma-mi[]PN
+1	{d}da[]DN
+1	{d}gilgames₃[]DN
+1	a-ki-zu[]PN
+1	i₃-li₂-am-ra-ki-ka[]PN
+1	|BAD₃.AN|{ki}-me[]GN
+1	šar-rum-i₃-li₂[]PN
+1	ab-ba-du[]PN
+1	nu-ur-{d}utu[]PN
+1	a-ne-ti-ta-nu[]PN
+1	ma-an-zi-da[]PN
+1	u₂-ra-e{ki}[]GN
+1	a-ši-ri₂-da[]PN
+1	aš-nun-na{ki}[]GN
+1	a-la-ta[]PN
+1	ba-luh-dingir[]PN
+1	mah-ha-ni-bi[]PN
+1	maš{ki}[]GN
+1	ši-ma-at-e₂-kur[]PN
+1	in-na-ba{ki}[]GN
+1	gul-lu-uh₂[]PN
+1	e-a-hu-um[]PN
+1	la-hi-a-nu-um[]PN
+1	ib-ni-i₃-li₂-ta[]PN
+1	ur-dub[]PN
+1	u₂-tu-ma₂-ge₆[]PN
+1	nu-un-gu[]PN
+1	hu-un-um[]PN
+1	{d}lamma-igi-še₃-du[]PN
+1	iš-ku-un-e₂-a[]PN
+1	nin₉-li-ib₂{ki}-še₃[]PN
+1	a-na-um-ma[]PN
+1	bu-ri₂-tum[]PN
+1	dabₓ(U₈)-ba[]PN
+1	lugal-mu-ma-ag₂[]PN
+1	na₄-ma-ta[]PN
+1	zi-du-mu[]PN
+1	šu-ur₂-bu{ki}-ke₄-ne-še₃[]GN
+1	nin-ka[]PN
+1	lu₂-ku₃-ga-ni[]PN
+1	a-hu-kam[]PN
+1	a₂-lu₅[]PN
+1	HAR-e[]DN
+1	ur-{d}gilgames₃[]PN
+1	bu-bu-tur[]PN
+1	{d}BULUG₃-ra-ba[]PN
+1	tu-ul-ga-lum-mar-tu[]PN
+1	lu-ba-um[]PN
+1	a-mu-ni-num₂[]PN
+1	ba-ma-nu-um[]PN
+1	ga-lu₅-da[]PN
+1	i-mu-da[]PN
+1	na-ba-lu₅-zu[]PN
+1	da-na-bi₂-id[]PN
+1	lu₂-re-e-u₃[]PN
+1	i-li-iš-ti-kal[]PN
+1	amar-gi₇[]PN
+1	a-ad-tum[]PN
+1	mi-id-gur₈[]PN
+1	ur-ru-ta[]PN
+1	bu₃-gi-li[]PN
+1	šu-ha-a[]PN
+1	ku-zu-lum[]PN
+1	ir-lu-numun[]PN
+1	{d}utu-ba-e₃[]PN
+1	ur-gu-la-mu[]PN
+1	igi-sa₆-sa₆-da[]PN
+1	du-ra-am-i₃-li₂[]PN
+1	u₃-sa-li-pa-tu[]PN
+1	ki-na-na-sal[]PN
+1	i-da-be-li₂[]PN
+1	i-bu-hu[]PN
+1	{d}šu-{d}suen-ma-ha-ar[]PN
+1	bi₂-na{ki}[]GN
+1	{d}nin[]PN
+1	da-am-qu₂-um[]PN
+1	ba-ki-lum[]PN
+1	NE-na-hu[]PN
+1	ur-{d}tilla[]PN
+1	za-du₃-a[]PN
+1	er₃-du₃-a[]PN
+1	da-u₂-sa-ta[]PN
+1	ab-ba-maš-ba-nu-um[]PN
+1	ama-|KI.KAL|{ki}-še₃[]GN
+1	zi-iz-ta[]PN
+1	ša₃-gu₄-ke₄-ne[]PN
+1	šu-a-hi{ki}[]GN
+1	šu-sa-hu-um{ki}[]GN
+1	nigar{gar}-ki-du₁₀-me[]PN
+1	er₃-kal-la[]PN
+1	na-na-dug-še[]PN
+1	še-da-ga-gi[]PN
+1	nig₂-ma-ma[]PN
+1	za-gu-da[]PN
+1	gi-gi-bi-ni-um{ki}[]GN
+1	en-u₂-u₂[]PN
+1	ku-zu-ku-zu[]PN
+1	ru-hu[]PN
+1	gu-nigar{gar}[]PN
+1	sipa-hi-li[]PN
+1	geme₂-{d}geštin-an-na[]PN
+1	uri₂{ki}-ma[]GN
+1	gu-um-da-nu-um[]PN
+1	PAP-AN[]PN
+1	ku₃-zu[]PN
+1	lugal-ma₂-gur₈-ra[]DN
+1	iri-lal₃[]PN
+1	ki-ra-num₂[]PN
+1	ni-ra-mu[]PN
+1	ma-an-zi₃-ke₄[]PN
+1	ur-du₆-sag-al[]PN
+1	ab-ga-ga[]PN
+1	im-ma-TUL₂-a[]PN
+1	bi-la-ti-u₄-zu-ma[]PN
+1	kin-gi₄-am₃[]PN
+1	pa₄-pa₄[]PN
+1	su-hu-tum[]PN
+1	du-du{ki}-me[]GN
+1	in-šum{ki}[]GN
+1	da-ba[]PN
+1	e-lu-da-an[]PN
+1	šu-un-ti{ki}[]GN
+1	da-ba{ki}[]GN
+1	te-ze₂-en₆[]PN
+1	ba-na-a-ba[]PN
+1	e-te-el₄-pu₃-{d}da-gan[]PN
+1	zu-ga-ti[]PN
+1	hu-un-li-še₃[]PN
+1	du-ug-ši[]PN
+1	a-ab-{d}šul-gi[]PN
+1	nu-ki-{d}iškur[]PN
+1	še-er-ra-še-er[]PN
+1	še-er-ti[]PN
+1	ha-ar-ša-ti-ip[]PN
+1	bu-ra-an-ha-al-bi-id[]PN
+1	še-il-ha-ki-ir-ba-aš[]PN
+1	lu₂-{d}nin-mar{ki}-ka[]PN
+1	ša-ba-nu-uk-ša-ba-aš[]PN
+1	amar-{d}šul-gi-ra[]PN
+1	ba-a-na-gar[]PN
+1	ur-{d}nam₂-mah[]PN
+1	in-tu-eš-še₃[]PN
+1	dingir-a-mu[]PN
+1	da-du-mu[]PN
+1	ur₄-ša₃[]PN
+1	i₃-be₂-a[]PN
+1	ni-ba-{d}lamma[]PN
+1	u₂-la[]PN
+1	tab-ba-al-i₃-li₂[]PN
+1	am-bi₂-zu[]PN
+1	šu-lu₂-um[]PN
+1	amar-ku₃[]PN
+1	ib-tu-ri[]PN
+1	me-KID-a[]PN
+1	ur-kal-la[]PN
+1	ia₃-a-ab-ni-šu[]PN
+1	nim-zi-na[]PN
+1	bil₂-li[]PN
+1	su₂-su₂-wa-da-ar[]PN
+1	du₈-du₈-li{ki}[]GN
+1	ki-ir-bi-ba[]PN
+1	ra-bu-tum[]PN
+1	ka-li[]PN
+1	ši-ma-nu-um{ki}-ke₄-ne-še₃[]GN
+1	lu₂-nin-ga[]PN
+1	lu₂-{d}x{ki}[]PN
+1	bu-un-ša[]PN
+1	še-ra-am-ta[]PN
+1	e₂-sukkal[]PN
+1	lu₂-si[]PN
+1	{d}nisaba-DIŠ-AN[]PN
+1	bu-ga[]PN
+1	bi-in-gu-bi-iš[]PN
+1	ig-za-gin₃[]PN
+1	a-lum-gun₃-a[]PN
+1	ma-ni-il[]PN
+1	{d}šul-gi-a-mu[]PN
+1	gur₈-gur₈-me-gal₂[]PN
+1	SIG₇[]PN
+1	ha-la-za[]PN
+1	er₃-e₂-ninnu[]PN
+1	lugal-šuruppak{ki}-še₃[]PN
+1	{d}lugal-gu₄[]DN
+1	i₃-la₂-lum[]PN
+1	muš-er₂-gal₂[]PN
+1	me-nigar{gar}-ta-še₃[]PN
+1	a-hu-e-er[]PN
+1	u₄-li-la₂[]PN
+1	lu₂-a₂-a[]PN
+1	šu-sal-la-ka-ti-um[]PN
+1	kur-ti-{d}ba-za[]PN
+1	{d}lugal-dar-du-du[]PN
+1	lugal-ur₃-ra-ni-ke₄[]PN
+1	si-ri-ta[]GN
+1	šu-ad-mu[]PN
+1	ku₃-gi-li[]PN
+1	e-ri-im-{d}da-gan[]PN
+1	i₃-lal₃-lam[]PN
+1	ša-ab-lu-a[]PN
+1	lal₃-la[]PN
+1	nin-šuba₃[]PN
+1	iš-me-{d}x[]PN
+1	ra-ab-hu-ti-iz[]PN
+1	u₃-ga-a[]PN
+1	lugal-ama-na[]PN
+1	lu₂-a-a-mu[]PN
+1	{d}iškur-illat-su[]PN
+1	da-da-kal-la[]PN
+1	ma-da{ki}[]GN
+1	du-ug₂-ra[]PN
+1	gub₃-PI-al[]PN
+1	wa-zi-bu-um[]PN
+1	ši-dam-qa₂-at[]PN
+1	an-gu[]PN
+1	babila₂{ki}-ka[]GN
+1	id-din-eš₁₈-dar[]PN
+1	i₃-zu-zu[]PN
+1	nu-uh₃-hi-dingir[]PN
+1	ur-da-mu-in[]PN
+1	šakkan-a[]DN
+1	i₃-si-in{ki}-me[]GN
+1	kur-za-an-du-mu[]PN
+1	tab-ru{ki}[]GN
+1	bad₃-{d}ki-zi{ki}[]PN
+1	hu-un-ha-ab-bur[]PN
+1	{d}nigar{gar}[]DN
+1	{d}nin-{d}nam₂-la₂-gar[]DN
+1	lugal-{geš}gigir[]PN
+1	{d}be-la-at-erim₂[]PN
+1	gu₂-un-za[]PN
+1	lugal-igi-sa₆[]PN
+1	ku₃-{d}en-lil₂-la₂[]PN
+1	lugal-edin-na-ka[]PN
+1	gir₂-ba-ak-ta[]PN
+1	uri₅{ki}-e-ki-ag₂[]PN
+1	{d}suen-al-še₃[]PN
+1	zu-di-ga[]PN
+1	{d}suen-ba-la-lu[]PN
+1	mi-gir-na-ni[]PN
+1	a-ab-ba-ki-na-na[]PN
+1	a-za-ru-um{ki}[]GN
+1	eš₁₈-dar-ki-in[]PN
+1	šu-ur₃-bu{ki}-me[]GN
+1	la-si₂-ma-nu-um[]PN
+1	si-ub-tum[]PN
+1	zi-ga-ze₂-na[]PN
+1	lu₂-{d}nisaba[]PN
+1	lam-lam-ma[]PN
+1	lu₂-unu{ki}[]PN
+1	a-da-an-eš₁₈-dar[]PN
+1	am-ti[]PN
+1	lugal-sag[]PN
+1	uš-lu[]GN
+1	giri₃-i₃-gi[]PN
+1	i₃-lum-a-bi[]PN
+1	za-ra-ra[]PN
+1	la-e-ri-hu-um[]PN
+1	e₂-banda₃{da}-du-ta[]PN
+1	ma-an-a-aš₂-tum[]PN
+1	lugal-nidba-e[]PN
+1	sa₆-sa₆-ga[]PN
+1	ki-ni-ib-ši[]PN
+1	ša-lim-nu-ri-šu[]PN
+1	a-li-ba-nu-uk-ša-ba-aš[]PN
+1	bu-si-ki-in[]PN
+1	šeš-ga₂-gi₄-na[]PN
+1	u₄-iri-ma[]PN
+1	e₂-a-ma-li₂-ik[]PN
+1	lu₂-iri-ki-ta[]PN
+1	lu₂-šubur[]PN
+1	a-ur-ne-en[]PN
+1	i-za[]PN
+1	ur-mes-tur[]PN
+1	{d}šu-{d}suen-wa-li-id-{d}šul-gi[]PN
+1	mu-da-nu-um[]PN
+1	lu₂-amar-ku₃[]PN
+1	lu₂-šuba-zi[]PN
+1	lu₂-ba-šim-e{ki}-še₃[]PN
+1	ki-{d}šara₂-kam-ta[]PN
+1	ka-u₂-du[]PN
+1	babila{ki}-ma[]GN
+1	nin₁₀-TAR[]PN
+1	{d}nin-lil₂-tum-im-de₃[]PN
+1	na-ap-li₂-is[]PN
+1	ba-ba-še[]PN
+1	lugal-ušurₓ(|LAL₂.TUG₂|)-ta[]PN
+1	ma-aš₂[]PN
+1	u₂-še₃-i-iš[]PN
+1	ki-maš₂{ki}[]GN
+1	gi-ne₂[]PN
+1	lugal-ni₂-te-na[]PN
+1	{d}suen-ka[]DN
+1	šir-ra[]PN
+1	en-dim₂-gig{ki}[]GN
+1	geš-banda₃{da}{ki}[]GN
+1	KUM-na[]PN
+1	{d}nin-gal-nun-na-an-dul₃[]PN
+1	ab-ba-zi-na[]PN
+1	šeš-i₃-li₂-iš-ti[]PN
+1	{d}nin-an-še₃-la₂-a[]PN
+1	amar-i₃-li₂[]PN
+1	ša-at-ba-ba-ti[]PN
+1	in-ki-si₂-im-ti[]PN
+1	tur-am-i₃-li₂[]PN
+1	ta-gu₄[]PN
+1	šu-ba-bi-ta[]PN
+1	{d}šu[]DN
+1	dingir-lum-li-ni[]PN
+1	ba-ga-a[]PN
+1	za-al-ma-nu-um[]PN
+1	i₃-u₃-ša[]PN
+1	kur-ru-ub-er₃-ra[]PN
+1	ri-iš-be-li₂[]PN
+1	ur-lum-ma[]PN
+1	da-gur₁₀-ra{ki}-ta[]GN
+1	DU{ki}-še₃[]GN
+1	a-hi-e₂-a[]PN
+1	ta-la-a-a[]PN
+1	lu₂-amar-ku₃-ta[]PN
+1	e-te-el-pu₃-{d}šul-gi[]PN
+1	an-da-ki-ta[]PN
+1	ga₂-da-nu-um-ta[]PN
+1	ur-{d}KA[]PN
+1	za-na-nu-um[]PN
+1	maš-HI-AN[]PN
+1	geme₂-gu₂-en-na[]PN
+1	ki-{d}iškur[]PN
+1	i-sa₆-ga[]PN
+1	eš₃-ta-ab-e₃[]PN
+1	a-ri-za-nu-um[]PN
+1	ta-ki-is-ga₂-ga₂[]PN
+1	{d}nanna-{d}amar-{d}suen-ra-ki-ag₂[]PN
+1	lu₂-dingir-ra-ka[]PN
+1	ha-ši-pa₂-ta₂-al[]PN
+1	{d}nin-in-si-na[]DN
+1	babila{ki}-ma-ta[]GN
+1	šer₃{er}-še-ru-um[]PN
+1	me-ru-ru-ti[]PN
+1	ki-na-mu-še₃[]PN
+1	lugal-uri₃[]PN
+1	bu-HI-SIG₇-a[]PN
+1	i-wu-mu-ti[]PN
+1	ap-ki-da[]PN
+1	en-{d}gu-la[]PN
+1	tug₂-tug₂-a-tu-ta[]PN
+1	nin-{d}nin-gubalag[]PN
+1	ha-la-aš-ka[]PN
+1	gu-da-lum[]PN
+1	a-ma[]PN
+1	bu-um-ma[]PN
+1	a-kab[]PN
+1	lu₂-{geš}šinig[]PN
+1	a₂-an-za[]PN
+1	igi-maš-šu[]PN
+1	u₂-da-nu-um[]PN
+1	a-a-ga[]PN
+1	a-ni-me-eš₂[]PN
+1	du-nu-um[]PN
+1	{d}nin-ku₃-nun-na-ka[]DN
+1	zu-BI-a[]PN
+1	a₂-zi-da-ka[]PN
+1	nu-ur-eš₁₈-dar[]PN
+1	ma-nu-um-ki-{d}šul-gi[]PN
+1	i₃-li₂-gešimmar[]PN
+1	ka-ta-durunₓ(|KU.KU|)[]PN
+1	a-hi-na[]PN
+1	pu-ga-sur-ra[]PN
+1	nin-ul-ne-še₃[]PN
+1	lam-KA{ki}-ga[]GN
+1	i-di₃-eš₁₈-dar[]PN
+1	tab-ba-nu-um[]PN
+1	ga₂-ar-sa-a[]PN
+1	i-ku-un-pi₂-{d}utu[]PN
+1	ap-lu-us₂-{d}da-gan[]PN
+1	bu-ba-e{ki}[]GN
+1	en-ib₂-gu₂-e₃[]PN
+1	gar-ra-e₂[]PN
+1	u₃-ku₃-nun-na[]PN
+1	ba-ba-za[]PN
+1	e-mul[]PN
+1	ša-ra-gi-me-er[]PN
+1	a₂-{d}suen[]PN
+1	er₁₁-ra-nu-id[]PN
+1	wa-wa[]PN
+1	si-um-mi{ki}[]GN
+1	u₂-šu-ri{ki}[]GN
+1	a-bi₂{ki}-še₃[]GN
+1	da-a₂[]PN
+1	inim-du₁₀[]PN
+1	u-tar[]PN
+1	{d}nin-du₆-babbar₂[]PN
+1	nu-ur₂-su-mu-ta[]PN
+1	ur-{d}šar-ru-gen[]PN
+1	na-ha-ab-tum[]PN
+1	bu₃-MI-za[]PN
+1	šu-ni-i₃-sa₆[]PN
+1	nam-tar-eb-gu-ul[]PN
+1	tab-kab[]PN
+1	wa-da-al-tum{ki}-ka[]GN
+1	be-li₂-li₂[]PN
+1	a-wa-ar[]PN
+1	{d}gu₂-an-na[]PN
+1	gara₂-šu[]PN
+1	ki-ma[]GN
+1	da-ki[]PN
+1	gu₂-nu-la₂-a[]PN
+1	ku-un-da[]PN
+1	lugal-mah-ta[]PN
+1	inim-eš₁₈-dar[]PN
+1	i-mi-it-ti[]PN
+1	i₃-li₂-e₂-tu-ta[]PN
+1	a-da-še-en₆-ta[]PN
+1	{d}nanna-u₃-nir-ra[]PN
+1	lugal-ba-ta-ab-e₃[]PN
+1	šakkan-ni[]DN
+1	ma-an-num₂-ki-{d}šul-gi[]PN
+1	al-ba-nu[]PN
+1	ga₂-ba-a[]PN
+1	ga-la-ah[]PN
+1	bu-sa-ba[]PN
+1	si-ri-ke₄-ru[]PN
+1	{d}tišpak[]DN
+1	lugal-pa₃-da[]PN
+1	ur-e₂-dar-a[]PN
+1	i-bi₂-dingir[]PN
+1	i-šu-um-dingir[]PN
+1	ga-an-za[]PN
+1	ma-u₃-ba[]PN
+1	i-di₃-i₃-lu[]PN
+1	al-la-ru[]PN
+1	ma-ha-zum{ki}[]GN
+1	du-bu-{du}dub-bu[]PN
+1	ga-gu-tum[]PN
+1	eš₁₈-dar-im-ti[]PN
+1	ama-ni-du₁₀[]PN
+1	e₃-lu-num₂-še₃[]PN
+1	ki-na-ša-sal[]PN
+1	za-a-an-nu-um[]PN
+1	aš-nun-na-ta[]GN
+1	lugal-HAR-zu-zu-u₄-iri-ma[]PN
+1	geme₂-tur-še₃[]PN
+1	ni-da-gu₂[]PN
+1	an-ki[]PN
+1	eš₁₈-dar-um-mi-a[]PN
+1	ku-ba-bi₂-a[]PN
+1	DU-na[]GN
+1	pu-šu-gin₇[]PN
+1	lugal-kisal[]PN
+1	a-bi₂-zabala₃{ki}[]PN
+1	la-u₃-ma-nu-um[]PN
+1	ra-ba-il[]PN
+1	i₃-DU[]PN
+1	a-ba-{d}en-lil₂[]PN
+1	nig₂-e₂-nig₂-ki-du₁₀[]PN
+1	as₂-sur{ki}[]GN
+1	a-ba-u₃[]PN
+1	a-pu₂-a[]PN
+1	ga-na-za[]PN
+1	ur-ad-gi₄-gi₄[]PN
+1	lu₂-su-ul-nu-ta[]PN
+1	gir₂-ra-še₃[]PN
+1	id-ni-{d}suen[]PN
+1	giri₁₇-tab{ki}-še₃[]GN
+1	šu-ur₂-zi[]PN
+1	ši-ri-ši-ih[]PN
+1	šu-bar-na-at[]PN
+1	{d}nanna-gi[]PN
+1	hu-un-nu-šu[]PN
+1	abzu-{d}inanna[]PN
+1	di-ri₂-ib-ul-la₂[]PN
+1	a-li-šu-ni[]PN
+1	a-za-ak-za-gaz[]PN
+1	er₃-{d}šara₂[]PN
+1	e₂-du₃-du₃[]PN
+1	pa₅-hal-li₂-ka[]PN
+1	an-da-TAG[]PN
+1	bu₃-ka-ka[]PN
+1	{d}pa-KU[]DN
+1	ga₂-a-ke₄-eš₂[]PN
+1	ma-NE-še₃[]PN
+1	ur-{d}eš₁₈-dar[]PN
+1	er₃-tam-ma[]PN
+1	u₃-da-mi-ša-ra-am-ta[]PN
+1	du-ug-ta[]PN
+1	babila₂-še₃[]GN
+1	lugal-he₂[]PN
+1	šar-ru-mi-um[]PN
+1	hu-un-ti-ba[]PN
+1	ar-za-nu-um[]PN
+1	ur-sag-pa-e₃[]PN
+1	lu₂-gu₂[]PN
+1	akšak{ki}[]GN
+1	i₃-li₂-tu-ri[]PN
+1	su-pu-uš[]PN
+1	muš-gu₂-la₂-še₃[]PN
+1	an-za₃-gar₃[]GN
+1	li-pi₂-i₃-sa[]PN
+1	lugal-siskur₂-re[]PN
+1	nu-za[]PN
+1	mu-tum-dingir[]PN
+1	dingir-sipa[]PN
+1	i-di₃-dingir[]PN
+1	du₁₀-ga-mu[]PN
+1	ba-ha-ha[]PN
+1	lugal-ga₂-i₃-gi[]PN
+1	ur-temen-na[]PN
+1	da-ad-da[]PN
+1	nu-uh₂-dingir[]PN
+1	lu₂-eb[]PN
+1	pu-ha-ti[]PN
+1	i₃-li₂-tu-kul₂-ti[]PN
+1	a-bi₂-e-lum[]PN
+1	a-na-da-hul[]PN
+1	šu-{d}šara₂[]PN
+1	be-li₂-ma[]PN
+1	dingir-su₂-ba-ni[]PN
+1	zu-u₂-a[]PN
+1	lu₂-pa₃-da[]PN
+1	ARAD₂-i₃-li₂[]PN
+1	bu-ga-ar[]PN
+1	ma-ni[]PN
+1	al-la-li₂-zu[]PN
+1	pu-šum-še-en[]PN
+1	NE-zi-bad₃{ki}[]GN
+1	lugal-inim-du₁₀-ga[]PN
+1	a-ha-am-ar-si[]PN
+1	lu₂-{d}mar-tu[]PN
+1	nin-har-ra-ni[]PN
+1	wa-ba-at-i₃-li₂[]PN
+1	me-{d}iškur[]PN
+1	geme₂-nin-ga₂[]PN
+1	geme₂-{d}iškur[]PN
+1	nin-en-sa₆[]PN
+1	šu-{d}šakkan₂[]PN
+1	gu-ni-na{ki}[]GN
+1	amar-ku₅-me[]PN
+1	i-di₃-a-sur{ki}[]PN
+1	la-muš-ta[]PN
+1	la-al-gu-ni[]PN
+1	a-la-a[]PN
+1	la₂-NI[]PN
+1	ba-gara₂[]TN
+1	ri-da-u₃[]PN
+1	tu-lulim[]PN
+1	nir-i₃-da-gu[]PN
+1	babila{ki}-ka[]GN
+1	i₃-šum{ki}[]GN
+1	ha-lu₅-u₃-kul[]PN
+1	an-ne₂-ba-du₇[]PN
+1	hu-ur₃-ti{ki}[]GN
+1	a-da-a-ka[]PN
+1	ni-tam[]PN
+1	šu-gur-um-ta[]PN
+1	be-li₂-sipa[]PN
+1	ša-bar-ru-mi-um[]PN
+1	gurdub-kal-la-ta[]PN
+1	hu-hu-uh₂-nu-ri{ki}[]GN
+1	sa₂-ah-ha[]PN
+1	e₂-zi-ta[]PN
+1	geme₂-giri₃-ni-še₃[]PN
+1	e₂-gal-mah[]TN
+1	ma-šu[]PN
+1	u₂-la-i-li₂[]PN
+1	ku-ru-ub₂-er₃-ra[]PN
+1	lu₂-inim-nig₂-sa₆-ga[]PN
+1	ha-ba-lu₅-ge[]PN
+1	ši-gi₄-ha-lum[]PN
+1	a-ba-bi₂-dim₂[]PN
+1	i-la-bu-ga-du[]PN
+1	hu-uh₂-hu-ri{ki}[]GN
+1	a-ši-ma-nu-um{ki}[]GN
+1	a₂-la-mu[]PN
+1	e-ma-ma[]PN
+1	lugal-sag₁₀[]PN
+1	u₃-za-ar[]PN
+1	a-ur₂-ra{ki}-ta[]GN
+1	u₄-zu-ma[]PN
+2	mu-lu-uš[]PN
+2	{d}šu-{d}suen-mi-gir-eš₁₈-dar[]PN
+2	en-nun-ne-{d}amar-{d}suen-ra-ki-ag₂[]PN
+2	lu-lu-a[]PN
+2	dam-ki-na[]PN
+2	eš₁₈-dar-um-mi[]PN
+2	lu₂-iri-ki[]PN
+2	a₂-du-du[]PN
+2	ur₃-re-ba-du₇[]PN
+2	ku-ga-a[]PN
+2	ra-ab-hu-ti[]PN
+2	ma-na-ma-tum[]PN
+2	lu₂-da-ga[]PN
+2	wa-ta-ru-um[]PN
+2	zi-ti-an{ki}[]GN
+2	{d}en[]DN
+2	e₂-ki[]PN
+2	ar-bi-ma-az-bi[]PN
+2	bu₃-zu-a[]PN
+2	{d}gibil₆[]DN
+2	maš-sa₆-sa₆[]PN
+2	inim-zi[]PN
+2	mu-ša[]PN
+2	AN-AN[]PN
+2	kin-gi₄[]PN
+2	dingir-illat[]PN
+2	IŠ[]PN
+2	it-ma-nu-um[]PN
+2	si-ri[]GN
+2	e-ni-iš-a-gu-um[]PN
+2	{d}šul-gi-dingir-mu[]PN
+2	pa₅-hal-li₂{ki}[]GN
+2	a-lu₅-lu₅[]PN
+2	a-zu-zu-nu-um[]PN
+2	ku₃-ge[]PN
+2	ta₂-di₃-eš₁₈-dar-še₃[]PN
+2	i₃-li₂-ma-al-ki[]PN
+2	{d}šul-gi-ezem[]PN
+2	lugal-e₂[]PN
+2	ŠIM[]PN
+2	ša-ni-da-at{ki}[]GN
+2	la-ap-hi[]PN
+2	mi-iš-hi-ni-iš-hi[]PN
+2	hu-un-da-wa[]PN
+2	du-ga-ma-aš-ti[]PN
+2	za-an-zu[]PN
+2	da-hu-un-ba-an[]PN
+2	e₂-a-du-du[]PN
+2	nin-ul-gur₃[]PN
+2	šu-ad-mu-ta[]PN
+2	ne-gi-ne-hu-um{ki}[]GN
+2	eš₁₈-dar-tu-kul₂-ti[]PN
+2	{d}gilgamesₓ(|BIL₃.GA.MES|)[]DN
+2	zi-dar{ki}[]GN
+2	ab-ba-du₈[]PN
+2	nin-tur-tur[]PN
+2	šu-ba-ti[]PN
+2	lu₂-mah-{d}šara₂[]PN
+2	hu-un-gi₄-la-ah[]PN
+2	un-za-mu[]PN
+2	igi-ni-da-a[]PN
+2	šar-ru-um{ki}-ke₄-ne[]GN
+2	ur-{d}nin-mar{ki}-ka[]PN
+2	su-mi-id-dingir[]PN
+2	šu-ba-ra[]PN
+2	ul-lam-še-en[]PN
+2	lugal-{d}x[]PN
+2	nin-kur[]PN
+2	a₂-bi₂-la-tum₂[]PN
+2	lugal-ku₄-ra[]PN
+2	i-šum{ki}[]GN
+2	zi-ib-na-tum[]PN
+2	lu₂-geštin[]PN
+2	en-nun-ne₂-{d}amar-{d}suen-ra-ki-ag₂[]PN
+2	si-ga-an{ki}[]GN
+2	nin-nun-na[]PN
+2	|BAD₃.AN|{ki}-še₃[]GN
+2	in-šum[]GN
+2	i-pi₄-iq-na-ni[]PN
+2	{d}ha-bu-ri-tum[]PN
+2	sa₂-si₂-ta[]PN
+2	si-la[]PN
+2	AŠ[]PN
+2	a₂-pi-li₂-a[]PN
+2	ri-im-ga-ga[]PN
+2	iri-lal₃-ta[]PN
+2	šu-{d}šu-mu-gan[]PN
+2	a₂-na-šu[]PN
+2	eš₁₈-dar-al-su[]PN
+2	a-du-du[]PN
+2	ba-a-lum[]PN
+2	{d}igi-kur[]PN
+2	en-um-eš₁₈-dar[]PN
+2	e-kal-lum[]PN
+2	ama-{d}inanna[]PN
+2	šu-ta₂-pu-li₂[]PN
+2	i-di₃-a-bu-um[]PN
+2	hal-i₃-lum[]PN
+2	ARAD₂-{d}x[]PN
+2	gu-za-{d}en-lil₂-la₂[]PN
+2	ama-|KI.KAL|{ki}[]GN
+2	šu-a-ba[]PN
+2	ar-ši-ku-uk-bi[]PN
+2	e-ma-{d}eš₁₈-dar[]PN
+2	HAR-da[]DN
+2	na-da-tum-ta[]PN
+2	amar-ku₅[]PN
+3	ba-na-ha[]PN
+3	he₂-na-lah₅[]PN
+3	tum-ba-al{ki}[]GN
+3	an-na-bi₂-du₁₁[]PN
+3	sa₁₂-ti-um[]PN
+3	šar-ru-um{ki}[]GN
+3	{d}ba-ba₆-da-nu-me-a[]PN
+3	gu-zu-lum[]PN
+3	lu₂-dingir-ta[]PN
+3	ab-ba-iri[]PN
+3	lugal-gub-ba-ni[]PN
+3	a-wa-al{ki}[]GN
+3	er₃-{d}nanna[]PN
+3	en-{d}inanna[]PN
+3	{d}ur-sag-imin[]DN
+3	nu-ur₂-{d}x[]PN
+3	ma-ba[]PN
+3	ur-ke₄[]PN
+3	lu₂-sa₆-i₃-zu[]PN
+3	i-bi₂-ta[]PN
+3	uru₁₁{ki}[]GN
+3	i-bi₂[]PN
+
+
+
+FIXED	3	{d}nanna-GIR₂@g-gal[]PN # Add as Nanna-ul4-gal : Nannaulgal
+FIXED	3	{d}nin-ti₂-ug₅-ga-še₃[]PN #should be divine name
+	3	en-eridu{ki}[]PN # skip it
+FIXED	3	nu-i-da[]PN # connect with Nu-i3-da
+FIXED	4	bi₂-bi₂[]PN # Add to ATF: bi2-bi2 : Bibi
+FIXED	4	u₃-zi-nu-ri[]PN # add it Uzinuri
+	4	i-ti[]PN # skip 
+FIXED	4	ha-za-ab-tum[]PN # link to ha-an-za-ab-tum : Hanzabtum
+FIXED	4	{d}nin-nigar{gar}[]DN # NIGAR issue
+FIXED	4	eš₁₈-dar-nu-id[]PN # add to ATF Ešdarnuʾʾid
+FIXED	4	nig₂-erim₂-ga-ru-ga[]PN # add to ATF: Niŋerimgaruga
+FIXED	4	dur-eb-la{ki}[]GN # add DurEbla[]GN
+FIXED	4	karₓ(GAN₂)-har{ki}[]GN # link to Kara2-HAR
+FIXED	4	tum-al[]GN # Tummal[]TN #  map it with Tummal[]TN
+FIXED	4	e-pi-ri[]PN # link to E2-pi-ri
+FIXED	4	lu₂-uru₁₁{ki}-ta[]PN # uru₁₁ == urubₓ; missing from authority list: Lu'Urub[]PN
+	4	tum-ma-al{ki}-še₃[]GN # map it with Tummal[]TN
+FIXED	4	ur-{d}nin-mar{ki}[]PN # merge with nin-MAR.KI
+	4	ma-da{ki}-bi[]GN # Niek will take care of this
+FIXED	4	ha-ba-mu[]PN # add to ATF: Habamu
+	4	gu₄-geš[]PN # not a name
+	5	giri₃-lugal-iti-da[]PN # Niek will look at it
+	5	en-{d}nanna[]PN # not a name, skip
+	5	|BAD₃.AN|{ki}-ta[]GN # pipes
+	5	da-bad₃-da[]PN # ignore
+	5	am₃[]PN # skip
+FIXED	5	marad₂{ki}[]GN # merge with marda₂
+	5	ab-e₃[]PN # not a name, skip
+	5	MAŠ[]PN # do not use
+FIXED	5	ti-ša-{d}da-hi[]PN # add ot ATF Tisandahi
+FIXED	5	e-te-al-pu₃-{d}da-gan[]PN # add to ATF: e-te-el₂-pu₃ in ATF, normalize as EtelpuDagan
+FIXED	5	i-mi-id-eš₁₈-dar[]PN # add to list ImidEšdar; found as I-mi-id-Eš₄-tar2
+FIXED	5	a-a-ša-ta[]PN # add to ATF: Ayaša
+	5  	igi-gun₃[]PN # Niek will take care of this
+	6	inim-{d}x[]PN # do not use
+FIXED	6	tu-li₂-id-{d}utu-ši[]PN # look below 
+	6	ku₃-ga[]PN # not name
+FIXED	6	urua{ki}[]GN # add to authority list: Urua[]GN
+	6	lu₂-na[]PN # ignore: his men
+	6	ha-ar-ši-tum[]PN # not pn
+FIXED	6	i₃-si-in{ki}-še₃[]GN # add to authority list: Isin[]GN
+	6	|KI.KAL|{ki}[]GN # remove pipes
+FIXED	6	ta₂-di₃-eš₁₈-dar[]PN # see TaddinEšdar 
+FIXED	7	da-la-a[]PN # add da-la-a into authority list: Dala[]PN
+FIXED	7	tu-li-id-{d}utu-ši[]PN # UTU{ši} in name authority list
+	7	dara₃-abzu[]PN # not a name
+FIXED	7	ki-en-gi[]GN # add to name authority list Kiʾengir[]GN
+	7	{d}nanna-e₂-tur₃[]DN # skip: Niek will correct it in the corpus
+	7	ku₃-bi[]PN # not name
+	8	ta[]PN # not name
+FIXED	8	a₂-ge₆-il₂-la[]PN # add to name authority list: Aĝeila
+	8	bar-su[]PN # not name
+FIXED	8	lu₂-kal-ga[]PN # lu2-kala-ga in BDTNS; add into name authority list: Lukalaga
+	9	šu-{d}x[]PN # not usable
+	10	e₃-lu-num₂[]PN # not proper name, festival
+	10	babila{ki}-ta[]GN # see babila below
+	12	|BAD₃.AN|{ki}[]GN # no pipes in name authority list
+FIXED	12	ta₂-din-eš₁₈-dar-še₃[]PN # see ta₂-din-eš₁₈-dar
+FIXED	12	kuara{ki}[]GN # A.HA ~ HA.A see kuara₂
+FIXED	15	lugal-nam₂-mah[]PN # is lugal.TUG₂.MAH :: change lugal-TUG2.MAH = Lugalšutur[]PN
+FIXED	16	ur-{d}gilgamesₓ(|BIL₃.GA.MES|)[]PN # normalize to UrBilgamesak[]PN
+FIXED	18	ta₂-din-eš₁₈-dar[]PN # ta₂-din-eš₄-dar : add to list and normalize to TaddinEštar[]PN
+FIXED	19	nigar{gar}-ki-du₁₀[]PN # add to authority list
+	21	lu₂-{d}x[]PN # not usable
+FIXED	23	i₃-kal-la[]PN # add to authority list: Ikala[}PN
+FIXED	25	kuara₂{ki}[]GN # kuara₂ = A.HA --> []SN -> []GN
+FIXED	27	ka₅-a-mu-ta[]PN # same as ka₅{a}
+	31	{d}utu-GIR₂@g-gal[]PN # same as nanše-GIR₂@g-gal 
+FIXED	32	lu₂-uru₁₁{ki}[]PN # uru₁₁ == urubₓ; missing from authority list: Lu'Urub[]PN
+FIXED	32	šu-{d}idim[]PN # šu-AN.BAD in BDTNS; relate to Cu-AN.BAD 
+	34	AN[]PN # add info: not usable
+FIXED	38	babila{ki}[]GN # --> Babilim
+	47	ur-{d}x[]PN #  add info: not usable
+	55	ki-{d}suen[]PN # add info: not a name
+FIXED	89	ka₅-a-mu[]PN # {a} phonetic complement in bdtns: KA₅{a}
+FIXED	148	tum-ma-al{ki}[]GN # gloss as TN in normalized column
+FIXED	160	tum-ma-al[]GN # gloss as TN in normalized column
+	196	{d}nin-ti₂-ug₅-ga[]PN	#should be divine name
+FIXED	271	{d}nanše-GIR₂@g-gal[]PN #should be divine name, check sign name from ogsl
