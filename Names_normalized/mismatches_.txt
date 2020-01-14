@@ -1033,7 +1033,7 @@
 
 FIXED	3	{d}nanna-GIR₂@g-gal[]PN # Add as Nanna-ul4-gal : Nannaulgal
 FIXED	3	{d}nin-ti₂-ug₅-ga-še₃[]PN #should be divine name
-	3	en-eridu{ki}[]PN # skip it
+FIXED	3	en-eridu{ki}[]PN # skip it
 FIXED	3	nu-i-da[]PN # connect with Nu-i3-da
 FIXED	4	bi₂-bi₂[]PN # Add to ATF: bi2-bi2 : Bibi
 FIXED	4	u₃-zi-nu-ri[]PN # add it Uzinuri
@@ -1049,36 +1049,36 @@ FIXED	4	e-pi-ri[]PN # link to E2-pi-ri
 FIXED	4	lu₂-uru₁₁{ki}-ta[]PN # uru₁₁ == urubₓ; missing from authority list: Lu'Urub[]PN
 	4	tum-ma-al{ki}-še₃[]GN # map it with Tummal[]TN
 FIXED	4	ur-{d}nin-mar{ki}[]PN # merge with nin-MAR.KI
-	4	ma-da{ki}-bi[]GN # Niek will take care of this
+FIXED	4	ma-da{ki}-bi[]GN # Niek will take care of this
 FIXED	4	ha-ba-mu[]PN # add to ATF: Habamu
 	4	gu₄-geš[]PN # not a name
-	5	giri₃-lugal-iti-da[]PN # Niek will look at it
+FIXED	5	giri₃-lugal-iti-da[]PN # Niek will look at it
 	5	en-{d}nanna[]PN # not a name, skip
 	5	|BAD₃.AN|{ki}-ta[]GN # pipes
 	5	da-bad₃-da[]PN # ignore
 	5	am₃[]PN # skip
 FIXED	5	marad₂{ki}[]GN # merge with marda₂
-	5	ab-e₃[]PN # not a name, skip
+FIXED	5	ab-e₃[]PN # not a name, skip
 	5	MAŠ[]PN # do not use
 FIXED	5	ti-ša-{d}da-hi[]PN # add ot ATF Tisandahi
 FIXED	5	e-te-al-pu₃-{d}da-gan[]PN # add to ATF: e-te-el₂-pu₃ in ATF, normalize as EtelpuDagan
 FIXED	5	i-mi-id-eš₁₈-dar[]PN # add to list ImidEšdar; found as I-mi-id-Eš₄-tar2
 FIXED	5	a-a-ša-ta[]PN # add to ATF: Ayaša
-	5  	igi-gun₃[]PN # Niek will take care of this
+FIXED	5  	igi-gun₃[]PN # Niek will take care of this
 	6	inim-{d}x[]PN # do not use
 FIXED	6	tu-li₂-id-{d}utu-ši[]PN # look below 
 	6	ku₃-ga[]PN # not name
 FIXED	6	urua{ki}[]GN # add to authority list: Urua[]GN
-	6	lu₂-na[]PN # ignore: his men
-	6	ha-ar-ši-tum[]PN # not pn
+FIXED	6	lu₂-na[]PN # ignore: his men
+FIXED	6	ha-ar-ši-tum[]PN # not pn
 FIXED	6	i₃-si-in{ki}-še₃[]GN # add to authority list: Isin[]GN
 	6	|KI.KAL|{ki}[]GN # remove pipes
 FIXED	6	ta₂-di₃-eš₁₈-dar[]PN # see TaddinEšdar 
 FIXED	7	da-la-a[]PN # add da-la-a into authority list: Dala[]PN
 FIXED	7	tu-li-id-{d}utu-ši[]PN # UTU{ši} in name authority list
-	7	dara₃-abzu[]PN # not a name
+FIXED	7	dara₃-abzu[]PN # not a name
 FIXED	7	ki-en-gi[]GN # add to name authority list Kiʾengir[]GN
-	7	{d}nanna-e₂-tur₃[]DN # skip: Niek will correct it in the corpus
+FIXED	7	{d}nanna-e₂-tur₃[]DN # skip: Niek: is correct; added to authority
 	7	ku₃-bi[]PN # not name
 	8	ta[]PN # not name
 FIXED	8	a₂-ge₆-il₂-la[]PN # add to name authority list: Aĝeila
